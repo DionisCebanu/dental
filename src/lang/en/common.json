@@ -1,0 +1,23 @@
+{
+    "appName": "The Golden Spoon",
+    "language": "Language",
+    "english": "English",
+    "french": "French",
+    "romanian": "Romanian",
+    "russian": "Russian",
+    "languageTooltip": "Change language",
+    "themeTooltip": "Toggle theme",
+    "loginButtonText": "Login",
+    "logoutButtonText": "Logout",
+    "closeButtonText": "Close",
+    "cancelButtonText": "Cancel",
+    "saveChangesButtonText": "Save Changes",
+    "editButtonText": "Edit",
+    "deleteButtonText": "Delete",
+    "viewButtonText": "View",
+    "backButtonText": "Back",
+    "errorTitle": "Error",
+    "validationErrorRequired": "This field is required.",
+    "validationErrorEmail": "Please enter a valid email address.",
+    "validationErrorPhone": "Please enter a valid phone number."
+  }

@@ -1,0 +1,23 @@
+{
+    "appName": "Золотая Ложка",
+    "language": "Язык",
+    "english": "Английский",
+    "french": "Французский",
+    "romanian": "Румынский",
+    "russian": "Русский",
+    "languageTooltip": "Сменить язык",
+    "themeTooltip": "Сменить тему",
+    "loginButtonText": "Войти",
+    "logoutButtonText": "Выйти",
+    "closeButtonText": "Закрыть",
+    "cancelButtonText": "Отмена",
+    "saveChangesButtonText": "Сохранить изменения",
+    "editButtonText": "Редактировать",
+    "deleteButtonText": "Удалить",
+    "viewButtonText": "Просмотр",
+    "backButtonText": "Назад",
+    "errorTitle": "Ошибка",
+    "validationErrorRequired": "Это поле обязательно для заполнения.",
+    "validationErrorEmail": "Пожалуйста, введите действительный адрес электронной почты.",
+    "validationErrorPhone": "Пожалуйста, введите действительный номер телефона."
+  }

@@ -1,0 +1,23 @@
+{
+    "appName": "Lingura de Aur",
+    "language": "Limbă",
+    "english": "Engleză",
+    "french": "Franceză",
+    "romanian": "Română",
+    "russian": "Rusă",
+    "languageTooltip": "Schimbă limba",
+    "themeTooltip": "Schimbă tema",
+    "loginButtonText": "Autentificare",
+    "logoutButtonText": "Deconectare",
+    "closeButtonText": "Închide",
+    "cancelButtonText": "Anulează",
+    "saveChangesButtonText": "Salvează Modificările",
+    "editButtonText": "Modifică",
+    "deleteButtonText": "Șterge",
+    "viewButtonText": "Vezi",
+    "backButtonText": "Înapoi",
+    "errorTitle": "Eroare",
+    "validationErrorRequired": "Acest câmp este obligatoriu.",
+    "validationErrorEmail": "Vă rugăm să introduceți o adresă de email validă.",
+    "validationErrorPhone": "Vă rugăm să introduceți un număr de telefon valid."
+  }

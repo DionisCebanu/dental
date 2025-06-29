@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap');
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+     
+    @layer base {
+      :root {
+        /* Default Light Theme (Restaurant) */
+        --background-light: 0 0% 100%; /* White */
+        --foreground-light: 220 20% 10%; /* Dark Slate Blue/Gray */
+        --card-light: 0 0% 98%; /* Off-white */
+        --card-foreground-light: 220 20% 10%;
+        --popover-light: 0 0% 100%;
+        --popover-foreground-light: 220 20% 10%;
+        --primary-light: 45 100% 60%; /* Vibrant Gold/Amber */
+        --primary-foreground-light: 220 20% 10%;
+        --secondary-light: 30 80% 65%; /* Softer Orange/Peach */
+        --secondary-foreground-light: 220 20% 10%;
+        --muted-light: 220 15% 90%; /* Light Gray */
+        --muted-foreground-light: 220 10% 45%; /* Muted Gray Text */
+        --accent-light: 350 90% 65%; /* Rich Crimson/Ruby Red */
+        --accent-foreground-light: 210 40% 98%;
+        --destructive-light: 0 70% 55%;
+        --destructive-foreground-light: 210 40% 98%;
+        --border-light: 220 15% 85%; /* Light Border */
+        --input-light: 220 15% 95%; /* Light Input Background */
+        --ring-light: 45 100% 70%;
+        --radius: 0.75rem;
+      }
+
+      .theme-restaurant-dark, :root.dark .theme-restaurant {
+        --background: 220 20% 7%;
+        --foreground: 210 40% 98%;
+        --card: 220 20% 10%;
+        --card-foreground: 210 40% 96%;
+        --popover: 220 20% 5%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 45 100% 60%;
+        --primary-foreground: 220 20% 10%;
+        --secondary: 30 80% 65%;
+        --secondary-foreground: 220 20% 10%;
+        --muted: 220 15% 25%;
+        --muted-foreground: 210 30% 70%;
+        --accent: 350 90% 65%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 70% 55%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 220 15% 20%;
+        --input: 220 15% 18%;
+        --ring: 45 100% 70%;
+      }
+      
+      :root.light .theme-restaurant, .theme-restaurant {
+        --background: hsl(var(--background-light));
+        --foreground: hsl(var(--foreground-light));
+        --card: hsl(var(--card-light));
+        --card-foreground: hsl(var(--card-foreground-light));
+        --popover: hsl(var(--popover-light));
+        --popover-foreground: hsl(var(--popover-foreground-light));
+        --primary: hsl(var(--primary-light));
+        --primary-foreground: hsl(var(--primary-foreground-light));
+        --secondary: hsl(var(--secondary-light));
+        --secondary-foreground: hsl(var(--secondary-foreground-light));
+        --muted: hsl(var(--muted-light));
+        --muted-foreground: hsl(var(--muted-foreground-light));
+        --accent: hsl(var(--accent-light));
+        --accent-foreground: hsl(var(--accent-foreground-light));
+        --destructive: hsl(var(--destructive-light));
+        --destructive-foreground: hsl(var(--destructive-foreground-light));
+        --border: hsl(var(--border-light));
+        --input: hsl(var(--input-light));
+        --ring: hsl(var(--ring-light));
+      }
+
+      /* Dentist Theme Light */
+      .theme-dentist {
+        --background: 210 40% 98%; 
+        --foreground: 214 15% 35%; 
+        --card: 0 0% 100%; 
+        --card-foreground: 214 15% 35%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 214 15% 35%;
+        --primary: 205 80% 55%; 
+        --primary-foreground: 210 40% 98%; 
+        --secondary: 175 60% 45%; 
+        --secondary-foreground: 210 40% 98%;
+        --muted: 210 30% 94%; 
+        --muted-foreground: 214 10% 45%; 
+        --accent: 205 80% 55%; 
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 210 20% 88%;
+        --input: 210 20% 96%;
+        --ring: 205 80% 55%;
+      }
+
+      /* Dentist Theme Dark */
+      .theme-dentist-dark, :root.dark .theme-dentist {
+        --background: 220 20% 10%; /* Darker blue-gray */
+        --foreground: 210 40% 96%; /* Light gray for text */
+        --card: 220 20% 13%; /* Slightly lighter card */
+        --card-foreground: 210 40% 94%;
+        --popover: 220 20% 8%;
+        --popover-foreground: 210 40% 96%;
+        --primary: 205 70% 60%; /* Slightly brighter blue for dark */
+        --primary-foreground: 220 20% 10%; /* Dark text on primary */
+        --secondary: 175 50% 55%; /* Adjusted teal */
+        --secondary-foreground: 220 20% 10%;
+        --muted: 220 15% 28%; /* Darker muted */
+        --muted-foreground: 210 30% 65%; /* Lighter muted text */
+        --accent: 205 70% 60%;
+        --accent-foreground: 210 40% 98%;
+        --border: 220 15% 23%;
+        --input: 220 15% 20%;
+        --ring: 205 70% 70%;
+      }
+    }
+     
+    @layer base {
+      * {
+        @apply border-border;
+      }
+      body {
+        @apply bg-background text-foreground;
+        font-family: 'Poppins', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', sans-serif;
+        @apply font-bold;
+      }
+    }
+
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: hsl(var(--background) / 0.5);
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: hsl(var(--primary) / 0.7);
+      border-radius: 10px;
+      border: 2px solid hsl(var(--background) / 0.5);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(var(--primary));
+    }
+
+    /* For Firefox */
+    html {
+      scrollbar-width: thin;
+      scrollbar-color: hsl(var(--primary) / 0.7) hsl(var(--background) / 0.5);
+    }
+
+    .animate-blob {
+      animation: blob 7s infinite;
+    }
+
+    @keyframes blob {
+      0% {
+        transform: scale(1) translate(0px, 0px);
+      }
+      33% {
+        transform: scale(1.1) translate(10px, -15px);
+      }
+      66% {
+        transform: scale(0.9) translate(-10px, 15px);
+      }
+      100% {
+        transform: scale(1) translate(0px, 0px);
+      }
+    }
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }

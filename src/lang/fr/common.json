@@ -1,0 +1,23 @@
+{
+    "appName": "La Cuillère Dorée",
+    "language": "Langue",
+    "english": "Anglais",
+    "french": "Français",
+    "romanian": "Roumain",
+    "russian": "Russe",
+    "languageTooltip": "Changer de langue",
+    "themeTooltip": "Changer de thème",
+    "loginButtonText": "Connexion",
+    "logoutButtonText": "Déconnexion",
+    "closeButtonText": "Fermer",
+    "cancelButtonText": "Annuler",
+    "saveChangesButtonText": "Sauvegarder les modifications",
+    "editButtonText": "Modifier",
+    "deleteButtonText": "Supprimer",
+    "viewButtonText": "Voir",
+    "backButtonText": "Retour",
+    "errorTitle": "Erreur",
+    "validationErrorRequired": "Ce champ est requis.",
+    "validationErrorEmail": "Veuillez entrer une adresse e-mail valide.",
+    "validationErrorPhone": "Veuillez entrer un numéro de téléphone valide."
+  }
