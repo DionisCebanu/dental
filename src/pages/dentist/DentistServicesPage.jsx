@@ -31,8 +31,8 @@
             className="bg-background text-foreground"
           >
             <Helmet>
-              <title>{t('dentistServicesPageTitle', { defaultText: 'Servicii Stomatologice si Preturi - DentalCare' })}</title>
-              <meta name="description" content={t('dentistServicesPageMetaDescription', { defaultText: 'Descopera gama completa de servicii stomatologice oferite de DentalCare: consultatie, profilaxie, tratamente, ortodontie, implantologie si estetica dentara.' })} />
+              <title>{t('dentistServicesPageTitle', { defaultText: 'Servicii Stomatologice si Preturi - RaDen' })}</title>
+              <meta name="description" content={t('dentistServicesPageMetaDescription', { defaultText: 'Descopera gama completa de servicii stomatologice oferite de RaDen: consultatie, profilaxie, tratamente, ortodontie, implantologie si estetica dentara.' })} />
             </Helmet>
             <NavbarDentist />
             <div className="pt-20">

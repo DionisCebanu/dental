@@ -39,8 +39,8 @@
       "contactInfoPhone": "+1 (555) 123-4567",
       "contactInfoEmail": "info@linguradeaur.com",
       "footerSlogan": "Savurați Momentul, Gustați Perfecțiunea.",
-      "footerRights": "© {year} Lingura de Aur. Toate drepturile rezervate.",
-      "footerDesignedBy": "Proiectat cu ❤️ de Hostinger Horizons",
+      "footerRights": "© 2025 Lingura de Aur. Toate drepturile rezervate.",
+      "footerDesignedBy": "Proiectat cu ❤️ de către Cebanu Dionis",
       "menuPageTitle": "Meniul Nostru Exquis",
       "menuItemDescription": "Descriere",
       "menuNoItems": "Niciun articol disponibil pentru această categorie momentan.",
@@ -511,10 +511,10 @@
       "christeningsPageFinalCTASubtitle": "Lăsați-ne să vă ajutăm să sărbătoriți această etapă specială. Contactați-ne pentru a afla mai multe despre pachetele noastre de botez și cumătrie.",
       "christeningsPageFinalCTAButton": "Cere Detalii Pentru Botez",
 
-      "dentistClinicName": "Clinica Dentară DentalCare",
-      "dentistClinicNameShort": "DentalCare",
+      "dentistClinicName": "Clinica Dentară RaDen",
+      "dentistClinicNameShort": "RaDen",
       "dentistAllRightsReserved": "Toate drepturile rezervate.",
-      "dentistDesignedBy": "Proiectat de Hostinger Horizons",
+      "dentistDesignedBy": "Proiectat de către Cebanu Dionis! Link către portfolio: ",
 
       "dentistNavAbout": "Despre Clinică",
       "dentistNavServices": "Servicii",
@@ -528,8 +528,8 @@
       "dentistHeroButton": "Programează-te Acum",
 
       "dentistAboutTitle": "Despre Clinica Noastră",
-      "dentistAboutSubtitle": "La DentalCare, combinăm experiența medicală cu tehnologia avansată și o abordare umană pentru a vă oferi servicii stomatologice de cea mai înaltă calitate.",
-      "dentistAboutImageAlt": "Interior modern al clinicii stomatologice DentalCare",
+      "dentistAboutSubtitle": "La RaDen, combinăm experiența medicală cu tehnologia avansată și o abordare umană pentru a vă oferi servicii stomatologice de cea mai înaltă calitate.",
+      "dentistAboutImageAlt": "Interior modern al clinicii stomatologice RaDen",
       "dentistAboutFeature1Title": "Tehnologie Modernă",
       "dentistAboutFeature1Desc": "Utilizăm echipamente de ultimă generație pentru diagnostic precis și tratamente eficiente, minim invazive.",
       "dentistAboutFeature2Title": "Echipă Experimentată",
@@ -568,7 +568,7 @@
       "dentistGallerySubtitle": "Descoperiți mediul modern și prietenos al clinicii noastre.",
       "dentistGalleryAlt1": "Cabinet stomatologic modern și luminos",
       "dentistGalleryAlt2": "Echipament dentar de ultimă generație",
-      "dentistGalleryAlt3": "Recepție primitoare a clinicii DentalCare",
+      "dentistGalleryAlt3": "Recepție primitoare a clinicii RaDen",
       "dentistGalleryAlt4": "Zâmbetul unui pacient mulțumit",
       "dentistGalleryAlt5": "Detaliu unit dentar modern",
       "dentistGalleryAlt6": "Copil fericit în cabinetul de pedodonție",
@@ -603,10 +603,10 @@
       "dentistContactInfoTitle": "Informații de Contact",
       "dentistContactAddress": "Str. Zambetului Nr. 123, Sector 4, București",
       "dentistContactPhoneNumber": "0722 000 000",
-      "dentistContactEmailAddress": "contact@dentalcare.ro",
+      "dentistContactEmailAddress": "contact@raden.ro",
       "dentistContactHoursTitle": "Program",
       "dentistContactHoursMondayFriday": "Luni - Vineri: 09:00 - 20:00",
       "dentistContactHoursSaturday": "Sâmbătă: 09:00 - 14:00 (Programări)",
       "dentistContactHoursSunday": "Duminică: Închis",
-      "dentistContactMapTitle": "Locația Clinicii DentalCare"
+      "dentistContactMapTitle": "Locația Clinicii RaDen"
     }

@@ -18,7 +18,7 @@ import React, { useContext } from 'react';
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="flex items-center">
                 <Sparkles size={28} className="text-primary" />
-                <span className="ml-2 text-lg font-bold text-foreground">{t('dentistClinicNameShort', { defaultText: "DentalCare" })}</span>
+                <span className="ml-2 text-lg font-bold text-foreground">{t('dentistClinicNameShort', { defaultText: "RaDen" })}</span>
               </div>
               <div className="flex items-center space-x-4">
                 {socialLinks.map((link, index) => (
@@ -36,8 +36,8 @@ import React, { useContext } from 'react';
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-border text-center text-sm">
-              <p>&copy; {new Date().getFullYear()} {t('dentistClinicName', { defaultText: "Clinica Dentară DentalCare" })}. {t('dentistAllRightsReserved', { defaultText: "Toate drepturile rezervate."})}</p>
-              <p className="text-xs mt-1 opacity-75">{t('dentistDesignedBy', { defaultText: "Proiectat de Hostinger Horizons" })}</p>
+              <p>&copy; {new Date().getFullYear()} {t('dentistClinicName', { defaultText: "Clinica Dentară RaDen" })}. {t('dentistAllRightsReserved', { defaultText: "Toate drepturile rezervate."})}</p>
+              <p className="text-xs mt-1 opacity-75">{t('dentistDesignedBy', { defaultText: "Proiectat de Hostinger Horizons" })} <span><a href="https://dioniscode.com/" target="_blank" className='text-orange-500 font-bold underline'>link</a></span></p>
             </div>
           </div>
         </footer>

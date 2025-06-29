@@ -56,14 +56,14 @@ import React, { useContext } from 'react';
                 transition={{ duration: 0.7, ease: "easeOut" }}
                 className="relative order-2 md:order-1"
               >
-                <p className="text-primary font-semibold mb-2 uppercase tracking-wider">{t('dentistAboutSectionLabel', { defaultText: 'Despre DentalCare' })}</p>
+                <p className="text-primary font-semibold mb-2 uppercase tracking-wider">{t('dentistAboutSectionLabel', { defaultText: 'Despre RaDen' })}</p>
                 <AnimatedText 
                   text={t('dentistAboutTitle', { defaultText: "Călătoria Spre un Zâmbet Sănătos și Strălucitor Începe Aici" })}
                   el="h2"
                   className="text-3xl sm:text-4xl font-bold text-foreground mb-6" 
                 />
                 <p className="text-lg text-muted-foreground mb-6">
-                  {t('dentistAboutSubtitle', { defaultText: "La DentalCare, misiunea noastră este să oferim servicii stomatologice de excepție, combinând expertiza medicală cu tehnologia avansată și o abordare profund umană. Ne dedicăm sănătății și frumuseții zâmbetului dumneavoastră, într-un mediu sigur, modern și primitor." })}
+                  {t('dentistAboutSubtitle', { defaultText: "La RaDen, misiunea noastră este să oferim servicii stomatologice de excepție, combinând expertiza medicală cu tehnologia avansată și o abordare profund umană. Ne dedicăm sănătății și frumuseții zâmbetului dumneavoastră, într-un mediu sigur, modern și primitor." })}
                 </p>
                  <p className="text-muted-foreground mb-8">
                   {t('dentistAboutSubtitle2', { defaultText: "Fiecare membru al echipei noastre împărtășește pasiunea pentru stomatologie și angajamentul față de bunăstarea pacienților. Vă invităm să descoperiți o experiență dentară diferită, unde confortul și încrederea dumneavoastră sunt prioritare." })}
@@ -81,7 +81,7 @@ import React, { useContext } from 'react';
                 <div className="absolute -bottom-8 left-1/4 w-24 h-24 bg-secondary/10 rounded-lg transform rotate-12 animate-blob animation-delay-4000"></div>
                  <img   
                   className="rounded-lg shadow-xl w-full h-auto object-cover relative z-10" 
-                  alt={t('dentistAboutImageAlt', { defaultText: "Interior modern al clinicii stomatologice DentalCare cu echipamente de ultimă generație" })} src="https://images.unsplash.com/photo-1629909615957-be38d48fbbe6" />
+                  alt={t('dentistAboutImageAlt', { defaultText: "Interior modern al clinicii stomatologice RaDen cu echipamente de ultimă generație" })} src="https://images.unsplash.com/photo-1629909615957-be38d48fbbe6" />
               </motion.div>
             </div>
 

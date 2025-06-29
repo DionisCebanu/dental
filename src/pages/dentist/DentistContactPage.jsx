@@ -25,8 +25,8 @@
           className="bg-background text-foreground"
         >
           <Helmet>
-            <title>{t('dentistContactPageTitle', { defaultText: 'Contact si Programari - DentalCare Chisinau' })}</title>
-            <meta name="description" content={t('dentistContactPageMetaDescription', { defaultText: 'Contacteaza-ne pentru programari si informatii. Clinica DentalCare din Chisinau - telefon, email, adresa si program de lucru.' })} />
+            <title>{t('dentistContactPageTitle', { defaultText: 'Contact si Programari - RaDen Chisinau' })}</title>
+            <meta name="description" content={t('dentistContactPageMetaDescription', { defaultText: 'Contacteaza-ne pentru programari si informatii. Clinica RaDen din Chisinau - telefon, email, adresa si program de lucru.' })} />
           </Helmet>
           <NavbarDentist />
           <div className="pt-20">

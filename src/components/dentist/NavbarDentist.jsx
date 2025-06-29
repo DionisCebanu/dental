@@ -20,10 +20,10 @@ import React, { useState, useContext } from 'react';
       };
 
       const navLinks = [
-        { nameKey: 'dentistNavHome', path: '/dentist' },
-        { nameKey: 'dentistNavAbout', path: '/dentist/despre' },
-        { nameKey: 'dentistNavServices', path: '/dentist/servicii' },
-        { nameKey: 'dentistNavContact', path: '/dentist/contact' },
+        { nameKey: 'dentistNavHome', path: '/' },
+        { nameKey: 'dentistNavAbout', path: '/despre' },
+        { nameKey: 'dentistNavServices', path: '/servicii' },
+        { nameKey: 'dentistNavContact', path: '/contact' },
       ];
 
       const toggleNavbar = () => setIsOpen(!isOpen);
@@ -35,10 +35,10 @@ import React, { useState, useContext } from 'react';
       };
 
       const scrollToContact = () => {
-        if (location.pathname === '/dentist/contact') {
+        if (location.pathname === '/contact') {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
-          window.location.href = '/dentist/contact';
+          window.location.href = '/contact';
         }
       };
       
@@ -56,9 +56,9 @@ import React, { useState, useContext } from 'react';
                 transition={{ type: "spring", stiffness: 300 }}
                 className="flex items-center"
               >
-                <Link to="/dentist" className="flex items-center">
+                <Link to="/" className="flex items-center">
                   <Sparkles size={32} className="text-primary" />
-                  <span className="ml-2 text-xl font-bold text-foreground">{t('dentistClinicNameShort', { defaultText: "DentalCare" })}</span>
+                  <span className="ml-2 text-xl font-bold text-foreground">{t('dentistClinicNameShort', { defaultText: "RaDen" })}</span>
                 </Link>
               </motion.div>
               

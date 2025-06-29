@@ -34,7 +34,7 @@
             className="bg-background text-foreground"
           >
             <Helmet>
-              <title>{t('dentistPageTitle', { defaultText: 'DentalCare - Clinica Stomatologica Moderna in Chisinau' })}</title>
+              <title>{t('dentistPageTitle', { defaultText: 'RaDen - Clinica Stomatologica Moderna in Chisinau' })}</title>
               <meta name="description" content={t('dentistPageMetaDescription', { defaultText: 'Servicii stomatologice complete in Chisinau. Tehnologie moderna, echipa de experti si ingrijire personalizata pentru un zambet sanatos.' })} />
             </Helmet>
             <NavbarDentist />

@@ -33,8 +33,8 @@
             className="bg-background text-foreground"
           >
             <Helmet>
-              <title>{t('dentistAboutPageTitle', { defaultText: 'Despre Clinica DentalCare - Echipa si Facilitati' })}</title>
-              <meta name="description" content={t('dentistAboutPageMetaDescription', { defaultText: 'Afla mai multe despre echipa noastra de specialisti, facilitatile moderne si abordarea centrata pe pacient la DentalCare.' })} />
+              <title>{t('dentistAboutPageTitle', { defaultText: 'Despre Clinica RaDen - Echipa si Facilitati' })}</title>
+              <meta name="description" content={t('dentistAboutPageMetaDescription', { defaultText: 'Afla mai multe despre echipa noastra de specialisti, facilitatile moderne si abordarea centrata pe pacient la RaDen.' })} />
             </Helmet>
             <NavbarDentist />
             <div className="pt-20">

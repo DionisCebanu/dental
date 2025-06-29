@@ -24,8 +24,8 @@
             {
                 icon: <Mail className="text-background" size={24} />,
                 titleKey: "dentistCtaEmailTitle", defaultTitle: "Trimiteți-ne un Email",
-                infoKey: "dentistContactEmailAddress", defaultInfo: "contact@dentalcare.ro",
-                href: `mailto:${t('dentistContactEmailAddress', 'contact@dentalcare.ro')}`
+                infoKey: "dentistContactEmailAddress", defaultInfo: "contact@raden.ro",
+                href: `mailto:${t('dentistContactEmailAddress', 'contact@raden.ro')}`
             }
         ];
 
@@ -63,7 +63,7 @@
 
                         <div className="text-center md:text-right">
                            <Button asChild variant="secondary" size="lg" className="bg-background text-foreground hover:bg-background/90 font-bold">
-                               <Link to="/dentist/contact">
+                               <Link to="/contact">
                                    {t('dentistCtaButton', {defaultText: "Contactează-ne"})}
                                    <ArrowRight className="ml-2 h-5 w-5"/>
                                </Link>
