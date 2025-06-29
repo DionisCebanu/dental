@@ -5,6 +5,8 @@
     import AnimatedText from './AnimatedText';
     import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
     import { DollarSign, AlertTriangle } from 'lucide-react';
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+    import { faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 
     const ServicePricesDentist = () => {
       const { t } = useContext(LanguageContext);
@@ -74,7 +76,8 @@
                     </CardHeader>
                     <CardContent className="flex-grow flex items-center justify-center">
                       <p className="text-3xl font-bold text-primary flex items-center">
-                        <DollarSign size={28} className="mr-1 opacity-70" />
+                        <FontAwesomeIcon icon={faMoneyBill} className="mr-1 opacity-70" style={{ fontSize: '28px' }} />
+
                         {t(item.priceKey, {defaultText: item.defaultPrice}).split(' ')[0]}
                       </p>
                     </CardContent>

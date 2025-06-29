@@ -19,8 +19,8 @@ import React, { useContext, useState } from 'react';
           descriptionKey: 'dentistCase1Desc', defaultDescription: 'Pacientul prezenta multiple probleme dentare, inclusiv dinți lipsă, carii extinse și ocluzie incorectă. Tratamentul a inclus implanturi dentare, coroane ceramice și ajustări ocluzale pentru a restabili funcționalitatea și estetica zâmbetului.',
           beforeImageText: 'Close-up of damaged teeth before complex oral rehabilitation',
           afterImageText: 'Restored smile after complex oral rehabilitation with implants and crowns',
-          beforeImageSrc: "/images/cases/case_1_before.png",
-          afterImageSrc: "/images/cases/case_1_after.png",
+          beforeImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226269/case_1_before_jchb7p.png",      
+          afterImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226271/case_1_after_pddcy3.png",
           testimonialKey: 'dentistCase1Testimonial', defaultTestimonial: 'Sunt extrem de mulțumit de rezultat! Echipa Raden mi-a redat încrederea în zâmbetul meu. Profesionalism și atenție la detalii la superlativ.'
         },
         {
@@ -29,8 +29,8 @@ import React, { useContext, useState } from 'react';
           descriptionKey: 'dentistCase2Desc', defaultDescription: 'Pacienta adultă dorea alinierea dinților și corectarea mușcăturii. S-a optat pentru un aparat dentar fix estetic. Tratamentul a durat 18 luni și a rezultat într-un zâmbet armonios și funcțional.',
           beforeImageText: 'Crowded and misaligned teeth before adult orthodontic treatment',
           afterImageText: 'Perfectly aligned smile after adult orthodontic treatment with braces',
-          beforeImageSrc: "/images/cases/case_2_before.png",
-          afterImageSrc: "/images/cases/case_2_after.png",
+          beforeImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226268/case_2_before_ivijrw.png",
+          afterImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226272/case_2_after_gmbbcc.png",
           testimonialKey: 'dentistCase2Testimonial', defaultTestimonial: 'Nu credeam că la vârsta mea mai pot avea un zâmbet perfect. Mulțumesc echipei pentru răbdare și pentru rezultatul minunat!'
         },
         {
@@ -39,8 +39,8 @@ import React, { useContext, useState } from 'react';
           descriptionKey: 'dentistCase3Desc', defaultDescription: 'Pacientul era nemulțumit de forma și culoarea dinților frontali. S-au aplicat fațete ceramice E-max pentru a obține un zâmbet natural, strălucitor și uniform. Procedura a fost minim invazivă.',
           beforeImageText: 'Stained and uneven frontal teeth before aesthetic dental veneers',
           afterImageText: 'Bright and uniform smile after E-max ceramic dental veneers',
-          beforeImageSrc: "/images/cases/case_3_before.png",
-          afterImageSrc: "/images/cases/case_3_after.png",
+          beforeImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751049116/case_3_before_pv7bub.png",
+          afterImageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751049117/case_3_after_zzhiwu.png",
           testimonialKey: 'dentistCase3Testimonial', defaultTestimonial: 'Fațetele arată incredibil de natural! Zâmbetul meu este transformat. Recomand cu căldură Raden pentru servicii de estetică dentară.'
         }
       ];
