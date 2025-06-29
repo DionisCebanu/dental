@@ -122,7 +122,7 @@ import React, { useContext, useState } from 'react';
                 <div className="bg-card p-8 rounded-lg shadow-xl">
                   <h3 className="text-2xl font-semibold text-foreground mb-6">{t('dentistContactInfoTitle', { defaultText: "Informații de Contact" })}</h3>
                   <div className="space-y-4 text-muted-foreground">
-                    <p className="flex items-start"><MapPin size={20} className="mr-3 mt-1 text-primary flex-shrink-0" /> {t('dentistContactAddress', { defaultText: "Str. Zambetului Nr. 123, Sector 4, București" })}</p>
+                    <p className="flex items-start"><MapPin size={20} className="mr-3 mt-1 text-primary flex-shrink-0" /> {t('dentistContactAddress', { defaultText: "Strada București 77, Chișinău, Moldova" })}</p>
                     <p className="flex items-center"><Phone size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="tel:+373722000000" className="hover:text-primary transition-colors">{t('dentistContactPhoneNumber', { defaultText: "0722 000 000" })}</a></p>
                     <p className="flex items-center"><Mail size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="mailto:contact@raden.md" className="hover:text-primary transition-colors">{t('dentistContactEmailAddress', { defaultText: "contact@raden.ro" })}</a></p>
                   </div>
