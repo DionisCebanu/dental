@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
     import { motion, AnimatePresence } from 'framer-motion';
     import { Button } from '@/components/ui/button';
+    import { Link } from 'react-router-dom';
     import { LanguageContext } from '@/context/LanguageContext';
 
     const slides = [
@@ -87,9 +88,9 @@ import React, { useState, useEffect, useContext } from 'react';
                   <p className="max-w-2xl text-lg text-gray-200 mb-8 text-shadow">
                     {t('dentistHeroSubtitle', { defaultText: 'Comprehensive dental services, modern technology, and a dedicated team for the health and beauty of your smile.' })}
                   </p>
-                  <Button size="lg" onClick={scrollToContact} className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-10 py-4 text-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+                  <Link to="/contact" size="lg" onClick={scrollToContact} className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold px-10 py-4 text-lg shadow-lg rounded-sm transform transition-all duration-300 hover:scale-105">
                     {t('dentistHeroButton', { defaultText: "Programează-te Acum" })}
-                  </Button>
+                  </Link>
                 </motion.div>
               </AnimatePresence>
             </div>

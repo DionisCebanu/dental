@@ -135,7 +135,7 @@ import React, { useContext, useState } from 'react';
                 </div>
                 <div className="bg-card h-72 rounded-lg shadow-xl overflow-hidden">
                    <iframe 
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=26.0924%2C44.4223%2C26.1124%2C44.4323&layer=mapnik&marker=44.4273%2C26.1024" 
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=28.8183969%2C47.0112686%2C28.8383969%2C47.0312686&layer=mapnik&marker=47.0212686%2C28.8283969" 
                     className="w-full h-full border-0"
                     title={t('dentistContactMapTitle', { defaultText: "Locația Clinicii RaDen"})}
                     loading="lazy"
