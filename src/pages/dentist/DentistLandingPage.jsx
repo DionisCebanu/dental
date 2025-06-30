@@ -9,6 +9,8 @@
     import ReviewsDentist from '@/components/dentist/ReviewsDentist';
     import NavbarDentist from '@/components/dentist/NavbarDentist';
     import CtaSection from '@/components/dentist/CtaSection';
+    import ServicesDentist from '../../components/dentist/ServicesDentist';
+    import ServicePricesDentist from '../../components/dentist/ServicePricesDentist';
     import ScrollTracker from '@/components/dentist/ScrollTracker';
     import { LanguageContext } from '@/context/LanguageContext';
 
@@ -41,7 +43,9 @@
             <HeroDentist />
             <CtaSection />
             <div id="stats"><StatsDentist /></div>
-            <div id="why-us"><WhyChooseUsDentist /></div>
+            {/* <div id="why-us"><WhyChooseUsDentist /></div> */}
+            <div id="why-us"><ServicesDentist /></div>
+            <div><ServicePricesDentist /></div>
             <div id="before-after"><BeforeAfterGalleryDentist /></div>
             <div id="reviews"><ReviewsDentist /></div>
           </motion.div>

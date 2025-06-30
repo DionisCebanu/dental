@@ -9,6 +9,7 @@
     import NavbarDentist from '@/components/dentist/NavbarDentist';
     import CtaSection from '@/components/dentist/CtaSection';
     import ScrollTracker from '@/components/dentist/ScrollTracker';
+    import WhyChooseUsDentist from '../../components/dentist/WhyChooseUsDentist';
     import { LanguageContext } from '@/context/LanguageContext';
 
     const pageVariants = {
@@ -39,6 +40,7 @@
             <NavbarDentist />
             <div className="pt-20">
               <AboutClinic />
+              <div id="why-us"><WhyChooseUsDentist /></div>
               <CtaSection />
               <div id="faq"><FaqDentist /></div>
               <div id="team"><TeamDentist /></div>
