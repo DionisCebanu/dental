@@ -21,7 +21,7 @@ import React, { useState, useEffect, useContext } from 'react';
         defaultTagline: "Restorative Dentistry",
         titleKey: "dentistHeroTitle2",
         defaultTitle: "Rediscover Your Confidence to Smile",
-        imageSrc: "images/hero/hero_image.png"
+        imageSrc: "images/hero/hero_image_2.png"
       },
       {
         imageDescription: "Young woman with a perfect white smile after cosmetic dentistry procedure with a dark overlay",
@@ -30,7 +30,7 @@ import React, { useState, useEffect, useContext } from 'react';
         defaultTagline: "Cosmetic Dental Services",
         titleKey: "dentistHeroTitle3",
         defaultTitle: "Designing Your Perfect Smile",
-        imageSrc: "images/hero/hero_image.png"
+        imageSrc: "images/hero/hero_image_last.png"
       }
     ];
 
