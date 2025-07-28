@@ -7,12 +7,12 @@ import React, { useContext } from 'react';
       const { t } = useContext(LanguageContext);
 
       const galleryItems = [
-        { id: 1, imageText: 'Cabinet stomatologic modern și luminos', altKey: 'dentistGalleryAlt1', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226608/clinic_interior_dg114o.jpg' },
-        { id: 2, imageText: 'Echipament dentar de ultimă generație', altKey: 'dentistGalleryAlt2', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751228117/clinic_salon_iztrbs.png' },
-        { id: 3, imageText: 'Recepție primitoare a clinicii Raden', altKey: 'dentistGalleryAlt3', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226605/clinic_table_wtguub.jpg' },
-        { id: 4, imageText: 'Zâmbetul unui pacient mulțumit', altKey: 'dentistGalleryAlt4', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751228117/clinic_salon_iztrbs.png' },
-        { id: 5, imageText: 'Detaliu unit dentar modern', altKey: 'dentistGalleryAlt5', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226605/clinic_table_wtguub.jpg' },
-        { id: 6, imageText: 'Copil fericit în cabinetul de pedodonție', altKey: 'dentistGalleryAlt6', imageSrc: 'https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751226608/clinic_interior_dg114o.jpg' }
+        { id: 1, imageText: 'Cabinet stomatologic modern și luminos', altKey: 'dentistGalleryAlt1', imageSrc: 'images/gallery/clinic_interior.jpg' },
+        { id: 2, imageText: 'Echipament dentar de ultimă generație', altKey: 'dentistGalleryAlt2', imageSrc: 'images/gallery/clinic_salon.jpg' },
+        { id: 3, imageText: 'Recepție primitoare a clinicii Raden', altKey: 'dentistGalleryAlt3', imageSrc: 'images/gallery/clinic_table.jpg' },
+        { id: 4, imageText: 'Zâmbetul unui pacient mulțumit', altKey: 'dentistGalleryAlt4', imageSrc: 'images/gallery/clinic_salon.jpg' },
+        { id: 5, imageText: 'Detaliu unit dentar modern', altKey: 'dentistGalleryAlt5', imageSrc: 'images/gallery/clinic_table.jpg' },
+        { id: 6, imageText: 'Copil fericit în cabinetul de pedodonție', altKey: 'dentistGalleryAlt6', imageSrc: 'images/gallery/clinic_interior.jpg' }
       ];
 
       const containerVariants = {

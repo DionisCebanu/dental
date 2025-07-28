@@ -18,7 +18,7 @@ import React, { useContext, useState, useEffect } from 'react';
           reviewKey: 'dentistReview1Text', defaultText: 'O experiență excelentă! Medicii sunt foarte profesioniști și atenți la nevoile pacientului. Rezultatele tratamentului ortodontic au depășit așteptările. Recomand cu încredere!',
           rating: 5,
           imageText: "Pacientă zâmbind după tratament ortodontic",
-          imageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751227784/review_girl_v5zmmn.png"
+          imageSrc: "/images/reviews/review_girl.png"
         },
         {
           id: 2,
@@ -27,7 +27,7 @@ import React, { useContext, useState, useEffect } from 'react';
           reviewKey: 'dentistReview2Text', defaultText: 'Am fost impresionat de tehnologia modernă și de curățenia impecabilă. Procedura de implant a fost nedureroasă, iar personalul este foarte amabil și explică fiecare pas.',
           rating: 5,
           imageText: "Pacient mulțumit după implant dentar",
-          imageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751227784/review_boy_bby30w.png"
+          imageSrc: "/images/reviews/review_boy.png"
         },
         {
           id: 3,

@@ -12,7 +12,7 @@ import React, { useState, useEffect, useContext } from 'react';
         defaultTagline: "Family Dental Care",
         titleKey: "dentistHeroTitle1",
         defaultTitle: "Elevating Smiles with Expert Care",
-        imageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751048417/hero2_c7ieml.png"
+        imageSrc: "images/hero/hero_image.png"
       },
       {
         imageDescription: "Elderly couple with bright, confident smiles, showcasing successful dental work with a dark overlay",
@@ -21,7 +21,7 @@ import React, { useState, useEffect, useContext } from 'react';
         defaultTagline: "Restorative Dentistry",
         titleKey: "dentistHeroTitle2",
         defaultTitle: "Rediscover Your Confidence to Smile",
-        imageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751048417/hero3_chnzoo.png"
+        imageSrc: "images/hero/hero_image.png"
       },
       {
         imageDescription: "Young woman with a perfect white smile after cosmetic dentistry procedure with a dark overlay",
@@ -30,7 +30,7 @@ import React, { useState, useEffect, useContext } from 'react';
         defaultTagline: "Cosmetic Dental Services",
         titleKey: "dentistHeroTitle3",
         defaultTitle: "Designing Your Perfect Smile",
-        imageSrc: "https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751048416/hero1_f6njnc.png"
+        imageSrc: "images/hero/hero_image.png"
       }
     ];
 
