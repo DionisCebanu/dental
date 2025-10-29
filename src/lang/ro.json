@@ -564,6 +564,13 @@
       "dentistTeamMember3Specialty": "Medic Stomatolog Pedodont",
       "dentistTeamMember3Bio": "Specializată în stomatologia pediatrică, Dr. Vasilescu creează o experiență pozitivă și confortabilă pentru micii pacienți.",
 
+      "teamAdminSpecialty": "Administrator",
+      "teamAsistentaSpecialty": "Asistentă medicală",
+      "teamInfirmieraSpecialty": "Infirmieră",
+      "teamMediciGeneralistiSpecialty": "Medic stomatolog generalist",
+      "teamMediciOrtodontiSpecialty": "Medic specialist ortodonție",
+      "teamMedicSefSpecialty": "Medic șef al clinicii",
+
       "dentistGalleryTitle": "Galerie Foto",
       "dentistGallerySubtitle": "Descoperiți mediul modern și prietenos al clinicii noastre.",
       "dentistGalleryAlt1": "Cabinet stomatologic modern și luminos",

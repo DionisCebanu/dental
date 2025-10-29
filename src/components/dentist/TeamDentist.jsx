@@ -8,25 +8,86 @@ import React, { useContext } from 'react';
       const { t } = useContext(LanguageContext);
 
       const teamMembers = [
-        {
-          nameKey: 'dentistTeamMember1Name', defaultName: 'Dr. Marcela Popescu',
-          specialtyKey: 'dentistTeamMember1Specialty', defaultSpecialty: 'Medic Stomatolog Generalist, Specialist Ortodonție',
-          imageText: 'Dr. Elena Popescu, medic ortodont zambind',
-          imageSrc: '/images/team/marcela.png',
-        },
-        {
-          nameKey: 'dentistTeamMember2Name', defaultName: 'Dr. Andrei Ionescu',
-          specialtyKey: 'dentistTeamMember2Specialty', defaultSpecialty: 'Medic Stomatolog, Specialist Implantologie',
-          imageText: 'Dr. Andrei Ionescu, specialist implantologie dentara',
-          imageSrc: '/images/team/andrei.png',
-        },
-        {
-          nameKey: 'dentistTeamMember3Name', defaultName: 'Dr. Maria Vasilescu',
-          specialtyKey: 'dentistTeamMember3Specialty', defaultSpecialty: 'Medic Stomatolog Pedodont',
-          imageText: 'Dr. Maria Vasilescu, medic stomatolog pediatru',
-          imageSrc: '/images/team/maria.png',
-        }
-      ];
+      {
+        nameKey: 'teamAdminName',
+        defaultName: '',
+        specialtyKey: 'teamAdminSpecialty',
+        defaultSpecialty: 'Administrator',
+        positionType: 'administrator',
+        imageText: 'Administrator clinica stomatologica',
+        imageSrc: '/images/team/administrator/administrator-image-1.JPG',
+      },
+      {
+        nameKey: 'teamAsistentaName',
+        defaultName: '',
+        specialtyKey: 'teamAsistentaSpecialty',
+        defaultSpecialty: 'Asistentă medicală',
+        positionType: 'asistenta-medicala',
+        imageText: 'Asistentă medicală zâmbind',
+        imageSrc: '/images/team/asistenta-medicala/asistenta-medicala-image-1.jpg',
+        objectPosition: '20% 10%',
+      },
+      {
+        nameKey: 'teamInfirmieraName',
+        defaultName: '',
+        specialtyKey: 'teamInfirmieraSpecialty',
+        defaultSpecialty: 'Infirmieră',
+        positionType: 'infirmiera',
+        imageText: 'Infirmieră zâmbind la clinică',
+        imageSrc: '/images/team/infirmiera/infirmiera-image-1.JPG',
+        objectPosition: '50% 30%',
+      },
+      {
+        nameKey: 'teamMediciGeneralistiName',
+        defaultName: '',
+        specialtyKey: 'teamMediciGeneralistiSpecialty',
+        defaultSpecialty: 'Medic stomatolog generalist',
+        positionType: 'medici-generalisti',
+        imageText: 'Medic generalist în cabinet',
+        imageSrc: '/images/team/medici-generalisti/medic-generalist-image-1.JPG',
+        objectPosition: '50% 35%',
+      },
+      {
+        nameKey: 'teamMediciGeneralistiName',
+        defaultName: '',
+        specialtyKey: 'teamMediciGeneralistiSpecialty',
+        defaultSpecialty: 'Medic stomatolog generalist',
+        positionType: 'medici-generalisti',
+        imageText: 'Medic generalist în cabinet',
+        imageSrc: '/images/team/medici-generalisti/medic-generalist-image-2.JPG',
+      },
+      {
+        nameKey: 'teamMediciOrtodontiName',
+        defaultName: 'Alina Trafaila',
+        specialtyKey: 'teamMediciOrtodontiSpecialty',
+        defaultSpecialty: 'Medic specialist ortodonție',
+        positionType: 'medici-ortodonti',
+        imageText: 'Medic ortodont zâmbind',
+        imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-1.jpg',
+        objectPosition: '50% 15%',
+      },
+      {
+        nameKey: 'teamMediciOrtodontiName',
+        defaultName: '',
+        specialtyKey: 'teamMediciOrtodontiSpecialty',
+        defaultSpecialty: 'Medic specialist ortodonție',
+        positionType: 'medici-ortodonti',
+        imageText: 'Medic ortodont zâmbind',
+        imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-2.jpg',
+        objectPosition: '50% 20%',
+      },
+      {
+        nameKey: 'teamMedicSefName',
+        defaultName: '',
+        specialtyKey: 'teamMedicSefSpecialty',
+        defaultSpecialty: 'Medic șef al clinicii',
+        positionType: 'medic-sef',
+        imageText: 'Medic șef al echipei stomatologice',
+        imageSrc: '/images/team/medic-sef/medic-sef-image-1.jpg',
+        objectPosition: '30% 10%',
+      },
+    ];
+
       
       const cardVariants = {
         hidden: { opacity: 0, scale: 0.9 },
@@ -67,11 +128,13 @@ import React, { useContext } from 'react';
                     <div className="h-64 w-full">
                        <img  
                         className="w-full h-full object-cover object-top" 
+                        style={{ objectPosition: member.objectPosition || 'center', transform: `scale(${member.imageScale ?? 1})` }}
                         alt={t(member.nameKey, member.defaultName) + " - " + t(member.specialtyKey, member.defaultSpecialty)} src={member.imageSrc} />
                     </div>
                     <CardHeader className="pt-6">
                       <CardTitle className="text-xl font-bold text-foreground">
-                        {t(member.nameKey, member.defaultName)}
+                        {/* {t(member.nameKey, member.defaultName)} */}
+                        {( member.defaultName)}
                       </CardTitle>
                       <CardDescription className="text-primary font-medium text-sm">
                         {t(member.specialtyKey, member.defaultSpecialty)}
