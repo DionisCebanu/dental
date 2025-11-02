@@ -1,14 +1,14 @@
 import React, { useContext, useState, useEffect } from 'react';
-    import { motion } from 'framer-motion';
-    import { LanguageContext } from '@/context/LanguageContext';
-    import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
-    import AnimatedText from './AnimatedText';
+import { motion } from 'framer-motion';
+import { LanguageContext } from '@/context/LanguageContext';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import AnimatedText from './AnimatedText';
 
-    const TeamDentist = () => {
-      const { t, locale } = useContext(LanguageContext);
-      const [activeMember, setActiveMember] = useState(null);
+const TeamDentist = () => {
+  const { t, language } = useContext(LanguageContext); // ← use language (not locale)
+  const [activeMember, setActiveMember] = useState(null);
 
-     const teamMembers = [
+  const teamMembers = [
     {
       nameKey: '',
       defaultName: 'Administrator',
@@ -119,38 +119,54 @@ import React, { useContext, useState, useEffect } from 'react';
       about_ru:
         'Главный врач клиники — высококвалифицированный специалист с более чем 20-летним опытом работы. Обладает глубокими знаниями, применяет современные методы лечения и проявляет внимательное отношение к каждому пациенту. Под её руководством клиника предоставляет медицинские услуги высокого уровня и пользуется доверием пациентов.',
     },
-];
+  ];
 
+  const cardVariants = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: (i) => ({
+      opacity: 1,
+      scale: 1,
+      transition: { delay: i * 0.15, duration: 0.5, ease: 'easeOut' }
+    })
+  };
 
-      
-      const cardVariants = {
-        hidden: { opacity: 0, scale: 0.9 },
-        visible: (i) => ({
-          opacity: 1,
-          scale: 1,
-          transition: { delay: i * 0.15, duration: 0.5, ease: "easeOut" }
-        })
-      };
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === 'Escape') setActiveMember(null);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
 
-       useEffect(() => {
-        const onKey = (e) => {
-          if (e.key === 'Escape') setActiveMember(null);
-        };
-        window.addEventListener('keydown', onKey);
-        return () => window.removeEventListener('keydown', onKey);
-      }, []);
+  const openAbout = (member) => setActiveMember(member);
+  const closeAbout = () => setActiveMember(null);
 
-      const openAbout = (member) => setActiveMember(member);
-      const closeAbout = () => setActiveMember(null);
+  // === getAboutText that reacts to language changes ===
+  const getAboutText = (member) => {
+    if (!member) return '';
+    const lang = String(language || 'en').toLowerCase();
 
-      const getAboutText = (member) => {
-        if (!member) return '';
-        // pick language-specific about if available, fallback to generic about or RO
-        const lang = locale?.toLowerCase?.() === 'ru' ? 'ru' : 'ro';
-        return member[`about_${lang}`] || member.about || member.about_ro || '';
-      };
+    // Primary key preferred by language
+    const primaryByLang = {
+      ru: 'about_ru',
+      ro: 'about_ro',
+      fr: 'about_ro', // no fr field, prefer RO
+      en: 'about_ro', // no en field, prefer RO
+    };
+    const primary = primaryByLang[lang] || 'about_ro';
 
-        return (
+    const candidates = [
+      member[primary],
+      member.about_ro,
+      member.about_ru,
+      member.about, // in case a generic field appears in future
+    ].filter(Boolean);
+
+    const text = (candidates[0] || '').toString().trim();
+    return text || t('dentist.aboutFallback', { defaultText: t('about', { defaultText: 'About' }) });
+  };
+
+  return (
     <section id="echipa" className="py-16 sm:py-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -189,9 +205,8 @@ import React, { useContext, useState, useEffect } from 'react';
                       transformOrigin: 'center center',
                     }}
                     alt={
-                      t(member.nameKey, member.defaultName) +
-                      ' - ' +
-                      t(member.specialtyKey, member.defaultSpecialty)
+                      `${t(member.nameKey, { defaultText: member.defaultName })} - ` +
+                      t(member.specialtyKey, { defaultText: member.defaultSpecialty })
                     }
                     src={member.imageSrc}
                   />
@@ -199,10 +214,10 @@ import React, { useContext, useState, useEffect } from 'react';
 
                 <CardHeader className="pt-6">
                   <CardTitle className="text-xl font-bold text-foreground">
-                    {member.defaultName}
+                    {t(member.nameKey, { defaultText: member.defaultName })}
                   </CardTitle>
                   <CardDescription className="text-primary font-medium text-sm">
-                    {t(member.specialtyKey, member.defaultSpecialty)}
+                    {t(member.specialtyKey, { defaultText: member.defaultSpecialty })}
                   </CardDescription>
 
                   <div className="mt-4">
@@ -237,7 +252,7 @@ import React, { useContext, useState, useEffect } from 'react';
           >
             <div className="flex items-start justify-between p-6 border-b dark:border-slate-700">
               <h3 id="about-title" className="text-lg font-semibold text-foreground">
-                {activeMember.defaultName} — {t(activeMember.specialtyKey, activeMember.defaultSpecialty)}
+                {t(activeMember.nameKey, { defaultText: activeMember.defaultName })} — {t(activeMember.specialtyKey, { defaultText: activeMember.defaultSpecialty })}
               </h3>
               <button
                 aria-label={t('close', { defaultText: 'Close' })}
@@ -266,4 +281,4 @@ import React, { useContext, useState, useEffect } from 'react';
   );
 };
 
-    export default TeamDentist;
+export default TeamDentist;
