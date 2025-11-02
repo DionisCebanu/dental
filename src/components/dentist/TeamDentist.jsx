@@ -224,8 +224,18 @@ const TeamDentist = () => {
                     <button
                       type="button"
                       onClick={() => openAbout(member)}
-                      className="inline-block px-3 py-1.5 bg-primary text-white rounded-md text-sm hover:opacity-90 transition"
-                    >
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-md text-sm sm:text-base font-semibold shadow-md hover:opacity-95 transition focus:outline-none focus:ring-2 focus:ring-primary/50"
+                    >         
+                      <svg
+                        className="w-6 h-6"
+                       xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M12 20a8 8 0 100-16 8 8 0 000 16z" />
+                      </svg>
                       {t('about', { defaultText: 'About' })}
                     </button>
                   </div>
