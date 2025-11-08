@@ -111,7 +111,7 @@ import React, { useContext } from 'react';
                 >
                   <img  
                     className="w-48 h-48 sm:w-64 sm:h-64 object-contain" 
-                    alt={t('dentistWhyChooseToothAlt', { defaultText: "Dinte 3D curat și sănătos" })} src="https://res.cloudinary.com/dfrcw7ngp/image/upload/v1751049048/whyus_ykka85.png" />
+                    alt={t('dentistWhyChooseToothAlt', { defaultText: "Dinte 3D curat și sănătos" })} src="/images/whyus/whyus.png" />
               </motion.div>
 
               <div className="space-y-8">

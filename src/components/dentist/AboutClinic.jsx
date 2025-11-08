@@ -81,7 +81,7 @@ import React, { useContext } from 'react';
                 <div className="absolute -bottom-8 left-1/4 w-24 h-24 bg-secondary/10 rounded-lg transform rotate-12 animate-blob animation-delay-4000"></div>
                  <img   
                   className="rounded-lg shadow-xl w-full h-auto object-cover relative z-10" 
-                  alt={t('dentistAboutImageAlt', { defaultText: "Interior modern al clinicii stomatologice RaDen cu echipamente de ultimă generație" })} src="https://images.unsplash.com/photo-1629909615957-be38d48fbbe6" />
+                  alt={t('dentistAboutImageAlt', { defaultText: "Interior modern al clinicii stomatologice RaDen cu echipamente de ultimă generație" })} src="/images/gallery/image-2.JPG" />
               </motion.div>
             </div>
 

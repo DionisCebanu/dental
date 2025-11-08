@@ -7,13 +7,38 @@ import React, { useContext } from 'react';
       const { t } = useContext(LanguageContext);
 
       const galleryItems = [
-        { id: 1, imageText: 'Cabinet stomatologic modern și luminos', altKey: 'dentistGalleryAlt1', imageSrc: 'images/gallery/clinic_interior.jpg' },
-        { id: 2, imageText: 'Echipament dentar de ultimă generație', altKey: 'dentistGalleryAlt2', imageSrc: 'images/gallery/clinic_salon.jpg' },
-        { id: 3, imageText: 'Recepție primitoare a clinicii Raden', altKey: 'dentistGalleryAlt3', imageSrc: 'images/gallery/clinic_table.jpg' },
-        { id: 4, imageText: 'Zâmbetul unui pacient mulțumit', altKey: 'dentistGalleryAlt4', imageSrc: 'images/gallery/clinic_salon.jpg' },
-        { id: 5, imageText: 'Detaliu unit dentar modern', altKey: 'dentistGalleryAlt5', imageSrc: 'images/gallery/clinic_table.jpg' },
-        { id: 6, imageText: 'Copil fericit în cabinetul de pedodonție', altKey: 'dentistGalleryAlt6', imageSrc: 'images/gallery/clinic_interior.jpg' }
-      ];
+      { id: 1, imageText: 'Cabinet stomatologic modern și luminos', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-1.JPG' },
+      { id: 2, imageText: 'Echipament dentar de ultimă generație', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-2.JPG' },
+      { id: 3, imageText: 'Recepție primitoare a clinicii Raden', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-3.JPG' },
+      { id: 4, imageText: 'Zâmbetul unui pacient mulțumit', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-4.JPG' },
+      { id: 5, imageText: 'Detaliu unit dentar modern', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-5.JPG' },
+      { id: 6, imageText: 'Copil fericit în cabinetul de pedodonție', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-6.JPG' },
+      /* { id: 7, imageText: 'Spațiu confortabil în sala de tratamente', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-7.JPG' }, */
+      /* { id: 8, imageText: 'Consult medical profesionist', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-8.JPG' }, */
+      { id: 9, imageText: 'Cabinet dentar modern', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-9.JPG' },
+      { id: 10, imageText: 'Zâmbet sănătos al pacientului', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-10.JPG' },
+      { id: 11, imageText: 'Recepție clinică prietenoasă', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-11.JPG' },
+      { id: 12, imageText: 'Relație de încredere între medic și pacient', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-12.JPG' },
+      { id: 13, imageText: 'Echipamente de ultimă generație', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-13.JPG' },
+      { id: 14, imageText: 'Sistem de sterilizare avansat', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-14.JPG' },
+      { id: 15, imageText: 'Cabinet de ortodonție', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-15.JPG' },
+      { id: 16, imageText: 'Tratament de albire dentară', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-16.JPG' },
+      { id: 17, imageText: 'Clinică dentară modernă', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-17.JPG' },
+      { id: 18, imageText: 'Interior clinică dentară', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-18.JPG' },
+      { id: 19, imageText: 'Tratament stomatologic complet', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-19.JPG' },
+      { id: 20, imageText: 'Dentist la lucru', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-20.JPG' },
+      { id: 21, imageText: 'Zâmbetul perfect', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-21.JPG' },
+      { id: 22, imageText: 'Cabinet dentar confortabil', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-22.JPG' },
+      { id: 23, imageText: 'Începutul unui tratament dentar', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-23.JPG' },
+      { id: 24, imageText: 'Consultatie de rutină', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-24.JPG' },
+      { id: 25, imageText: 'Echipament dentar de înaltă precizie', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-25.JPG' },
+      { id: 26, imageText: 'Cabinet stomatologic pentru întreaga familie', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-26.JPG' },
+      { id: 27, imageText: 'Medic stomatolog cu experiență', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-27.JPG' },
+      { id: 28, imageText: 'Sistem de protecție a pacienților', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-28.JPG' },
+      { id: 29, imageText: 'Consult stomatologic rapid și eficient', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-29.JPG' },
+      /* { id: 30, imageText: 'Un zâmbet sănătos pentru întreaga familie', altKey: 'clinicWebsiteImage', imageSrc: 'images/gallery/image-30.JPG' } */
+];
+
 
       const containerVariants = {
         hidden: { opacity: 0 },

@@ -11,7 +11,7 @@ const TeamDentist = () => {
   const teamMembers = [
     {
       nameKey: '',
-      defaultName: 'Administrator',
+      defaultName: 'Nadejda Stoliarova',
       specialtyKey: 'teamAdminSpecialty',
       defaultSpecialty: 'Administrator',
       positionType: 'administrator',
@@ -37,8 +37,22 @@ const TeamDentist = () => {
         'Стоматологическая медсестра и зубной техник — внимательный и ответственный специалист, владеющий современными методами ухода за пациентами. Обеспечивает точность, качество и комфорт на каждом этапе лечения.',
     },
     {
+      nameKey: 'teamAsistentaName',
+      defaultName: '',
+      specialtyKey: 'teamAsistentaSpecialty',
+      defaultSpecialty: 'Asistentă medicală',
+      positionType: 'asistenta-medicala',
+      imageText: 'Asistentă medicală zâmbind',
+      imageSrc: '/images/team/asistenta-medicala/asistenta-medicala-image-2.jpeg',
+      objectPosition: '20% 10%',
+      about_ro:
+        'Asistentă medicală cu experiență vastă în domeniul stomatologiei.',
+      about_ru:
+        'Медицинская сестра с обширным опытом в области стоматологии.',
+    },
+    {
       nameKey: 'teamInfirmieraName',
-      defaultName: 'Infermiera',
+      defaultName: 'Svetlana Lenscaia',
       specialtyKey: 'teamInfirmieraSpecialty',
       defaultSpecialty: 'Infirmieră',
       positionType: 'infirmiera',
@@ -76,6 +90,19 @@ const TeamDentist = () => {
         'Medic stomatolog specializat in terapie și ortopedie cu peste 20 de ani de experiență. Efectuează tratamente și protezări dentare, combinând metodele clasice cu tehnologiile moderne pentru a obține rezultate estetice și funcționale de înaltă calitate.',
       about_ru:
         'Стоматолог, специализирующийся на терапии и ортопедии, с более чем 20-летним опытом. Проводит лечение и протезирование, сочетая классические методы с современными технологиями для достижения высококачественных эстетических и функциональных результатов.',
+    },
+    {
+      nameKey: 'teamMediciGeneralistiName',
+      defaultName: '',
+      specialtyKey: 'teamMediciGeneralistiSpecialty',
+      defaultSpecialty: 'Medic stomatolog generalist',
+      positionType: 'medici-generalisti',
+      imageText: 'Medic generalist în cabinet',
+      imageSrc: '/images/team/medici-generalisti/medic-generalist-image-3.jpeg',
+      about_ro:
+        'Medic stomatolog generalist- pentru maturi și copii cu experiență, care oferă o gamă completă de servicii pentru întreaga familie — de la profilaxie și igienizare, până la tratarea cariilor, reconstrucția dinților și stomatologie estetică. Se acordă o atenție specială lucrului cu copiii — pentru a le inspira încredere și a crea o experiență pozitivă a vizitei la dentist încă de la o vârstă fragedă',
+      about_ru:
+        'Стоматолог общего профиля — для взрослых и детей. Опытный стоматолог, предоставляющий полный спектр услуг для всей семьи — от профилактики и гигиены до лечения кариеса, восстановления зубов и эстетической стоматологии. Особое внимание уделяется работе с детьми — чтобы внушить им доверие и создать положительный опыт посещения стоматолога с раннего возраста.',
     },
     {
       nameKey: 'teamMediciOrtodontiName',
