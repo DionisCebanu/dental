@@ -173,8 +173,8 @@ import React, { useContext, useState } from 'react';
                   <h3 className="text-2xl font-semibold text-foreground mb-6">{t('dentistContactInfoTitle', { defaultText: "Informații de Contact" })}</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <p className="flex items-start"><MapPin size={20} className="mr-3 mt-1 text-primary flex-shrink-0" /> {t('dentistContactAddress', { defaultText: "Strada București 77, Chișinău, Moldova" })}</p>
-                    <p className="flex items-center"><Phone size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="tel:+373722000000" className="hover:text-primary transition-colors">{t('dentistContactPhoneNumber', { defaultText: "0722 000 000" })}</a></p>
-                    <p className="flex items-center"><Mail size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="mailto:contact@raden.md" className="hover:text-primary transition-colors">{t('dentistContactEmailAddress', { defaultText: "contact@raden.ro" })}</a></p>
+                    <p className="flex items-center"><Phone size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="tel:+37378067111" className="hover:text-primary transition-colors">078067111</a></p>
+                    <p className="flex items-center"><Mail size={20} className="mr-3 text-primary flex-shrink-0" /> <a href="mailto:alinatrafaila@gmail.com" className="hover:text-primary transition-colors">alinatrafaila@gmail.com</a></p>
                   </div>
                   <h4 className="text-lg font-semibold text-foreground mt-6 mb-2">{t('dentistContactHoursTitle', { defaultText: "Program" })}:</h4>
                   <ul className="list-disc list-inside text-muted-foreground space-y-1">
