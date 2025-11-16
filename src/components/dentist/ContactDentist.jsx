@@ -11,7 +11,8 @@ import React, { useContext, useState } from 'react';
     import emailjs from '@emailjs/browser';
 
     const SERVICE_ID = 'service_566kca7';
-    const TEMPLATE_ID = 'template_6j1ssuo';
+    const TEMPLATE_ADMIN_ID = 'template_6j1ssuo';
+    const TEMPLATE_CLIENT_ID = "template_ex6qv5n";
     const PUBLIC_KEY = 'TxNNcraQ9-gmEhy9C';
 
     const ContactDentist = () => {
@@ -62,20 +63,34 @@ import React, { useContext, useState } from 'react';
         setIsSubmitting(true);
 
         try {
+          const templateParams = {
+            name: formData.name,
+            phone: formData.phone,
+            email: formData.email,
+            message: formData.message,
+          };
+
+          // 1) Email către CLINICĂ / ADMIN
           await emailjs.send(
             SERVICE_ID,
-            TEMPLATE_ID,
+            TEMPLATE_ADMIN_ID,
+            templateParams,
+            PUBLIC_KEY
+          );
+
+          // 2) Email de CONFIRMARE către CLIENT
+          await emailjs.send(
+            SERVICE_ID,
+            TEMPLATE_CLIENT_ID,
             {
-              name: formData.name,
-              phone: formData.phone,
-              email: formData.email,
-              message: formData.message,
+              ...templateParams,
+              to_email: formData.email, // 👈 trebuie să existe {{to_email}} în template
             },
             PUBLIC_KEY
           );
 
           toast({
-            title: t('dentistContactSuccessTitle', { defaultText: "Mesaj TrimIs!" }),
+            title: t('dentistContactSuccessTitle', { defaultText: "Mesaj Trimis!" }),
             description: t('dentistContactSuccessDesc', { defaultText: "Vă mulțumim! Vă vom contacta în cel mai scurt timp." }),
             className: "bg-green-500 text-white"
           });
@@ -83,16 +98,17 @@ import React, { useContext, useState } from 'react';
           setFormData({ name: '', phone: '', email: '', message: '' });
           setErrors({});
         } catch (error) {
-          console.error(error);
+          console.error('EmailJS error:', error);
           toast({
             title: t('dentistContactErrorFormTitle', { defaultText: "Eroare la trimitere" }),
             description: t('dentistContactSendErrorDesc', { defaultText: "Mesajul nu a fost trimis. Încercați din nou." }),
             variant: "destructive"
           });
+        } finally {
+          setIsSubmitting(false);
         }
-
-        setIsSubmitting(false);
       };
+
 
       return (
         <section id="contact" className="py-16 sm:py-24 bg-muted">
