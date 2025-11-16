@@ -10,9 +10,9 @@ import React, { useContext, useState } from 'react';
     import AnimatedText from './AnimatedText';
     import emailjs from '@emailjs/browser';
 
-    const SERVICE_ID = 'your_service_id';
-    const TEMPLATE_ID = 'your_template_id';
-    const PUBLIC_ID = 'your_user_id';
+    const SERVICE_ID = 'service_566kca7';
+    const TEMPLATE_ID = 'template_6j1ssuo';
+    const PUBLIC_KEY = 'TxNNcraQ9-gmEhy9C';
 
     const ContactDentist = () => {
       const { t } = useContext(LanguageContext);
@@ -24,6 +24,7 @@ import React, { useContext, useState } from 'react';
         message: ''
       });
       const [errors, setErrors] = useState({});
+      const [isSubmitting, setIsSubmitting] = useState(false);
 
       const handleChange = (e) => {
         const { name, value } = e.target;
@@ -46,23 +47,51 @@ import React, { useContext, useState } from 'react';
         return Object.keys(newErrors).length === 0;
       };
 
-      const handleSubmit = (e) => {
+      const handleSubmit = async (e) => {
         e.preventDefault();
-        if (validateForm()) {
-          console.log("Form data submitted:", formData); 
-          toast({
-            title: t('dentistContactSuccessTitle', { defaultText: "Mesaj Trimis!" }),
-            description: t('dentistContactSuccessDesc', { defaultText: "Vă mulțumim! Vă vom contacta în cel mai scurt timp." }),
-            className: "bg-green-500 text-white"
-          });
-          setFormData({ name: '', phone: '', email: '', message: '' });
-        } else {
+
+        if (!validateForm()) {
           toast({
             title: t('dentistContactErrorFormTitle', { defaultText: "Eroare Formular" }),
             description: t('dentistContactErrorFormDesc', { defaultText: "Vă rugăm corectați erorile din formular." }),
             variant: "destructive"
           });
+          return;
         }
+
+        setIsSubmitting(true);
+
+        try {
+          await emailjs.send(
+            SERVICE_ID,
+            TEMPLATE_ID,
+            {
+              name: formData.name,
+              phone: formData.phone,
+              email: formData.email,
+              message: formData.message,
+            },
+            PUBLIC_KEY
+          );
+
+          toast({
+            title: t('dentistContactSuccessTitle', { defaultText: "Mesaj TrimIs!" }),
+            description: t('dentistContactSuccessDesc', { defaultText: "Vă mulțumim! Vă vom contacta în cel mai scurt timp." }),
+            className: "bg-green-500 text-white"
+          });
+
+          setFormData({ name: '', phone: '', email: '', message: '' });
+          setErrors({});
+        } catch (error) {
+          console.error(error);
+          toast({
+            title: t('dentistContactErrorFormTitle', { defaultText: "Eroare la trimitere" }),
+            description: t('dentistContactSendErrorDesc', { defaultText: "Mesajul nu a fost trimis. Încercați din nou." }),
+            variant: "destructive"
+          });
+        }
+
+        setIsSubmitting(false);
       };
 
       return (
