@@ -8,6 +8,11 @@ import React, { useContext, useState } from 'react';
     import { Phone, Mail, MapPin, Send } from 'lucide-react';
     import { useToast } from '@/components/ui/use-toast';
     import AnimatedText from './AnimatedText';
+    import emailjs from '@emailjs/browser';
+
+    const SERVICE_ID = 'your_service_id';
+    const TEMPLATE_ID = 'your_template_id';
+    const PUBLIC_ID = 'your_user_id';
 
     const ContactDentist = () => {
       const { t } = useContext(LanguageContext);
