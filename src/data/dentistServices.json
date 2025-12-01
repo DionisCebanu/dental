@@ -1,0 +1,1033 @@
+[
+  {
+    "id": "consultation",
+    "serviceKey": "dentistPriceServiceConsultation",
+    "defaultService": "Consultaţie",
+    "titleRu": "Консультация",
+    "priceKey": "dentistPriceConsultation",
+    "defaultPrice": "500 MDL"
+  },
+  {
+    "id": "consultation_ortho_surgery",
+    "serviceKey": "dentistPriceServiceConsultationOrthoSurgery",
+    "defaultService": "Consultaţie/Ortopedie/Chirurgie",
+    "titleRu": "Консультация / Ортопедия / Хирургия",
+    "priceKey": "dentistPriceConsultationOrthoSurgery",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "radiovisiography",
+    "serviceKey": "dentistPriceServiceRadiovisiography",
+    "defaultService": "Radioviziografia cu studierea peliculei",
+    "titleRu": "Радиовизиография с анализом снимка",
+    "priceKey": "dentistPriceRadiovisiography",
+    "defaultPrice": "60 MDL"
+  },
+  {
+    "id": "anesthesia_truncular_infiltrative",
+    "serviceKey": "dentistPriceServiceAnesthesiaTruncularInfiltrative",
+    "defaultService": "Anastezie (trunculară, infiltrativă)",
+    "titleRu": "Анестезия (проводниковая, инфильтрационная)",
+    "priceKey": "dentistPriceAnesthesiaTruncularInfiltrative",
+    "defaultPrice": "220 MDL"
+  },
+  {
+    "id": "anesthesia_topical",
+    "serviceKey": "dentistPriceServiceAnesthesiaTopical",
+    "defaultService": "Anestezia aplicativă",
+    "titleRu": "Аппликационная анестезия",
+    "priceKey": "dentistPriceAnesthesiaTopical",
+    "defaultPrice": "60 MDL"
+  },
+  {
+    "id": "rubber_dam",
+    "serviceKey": "dentistPriceServiceRubberDam",
+    "defaultService": "Aplicarea digii (roberdam)",
+    "titleRu": "Наложение рабердама",
+    "priceKey": "dentistPriceRubberDam",
+    "defaultPrice": "220 MDL"
+  },
+  {
+    "id": "scaling_ultrasound",
+    "serviceKey": "dentistPriceServiceScalingUltrasound",
+    "defaultService": "Înlăturarea depunerilor dentare cu ultrasunet",
+    "titleRu": "Снятие зубных отложений ультразвуком",
+    "priceKey": "dentistPriceScalingUltrasound",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "polishing_air_prophy",
+    "serviceKey": "dentistPriceServicePolishingAirProphy",
+    "defaultService": "Finisarea cu «Air prophy»",
+    "titleRu": "Полировка аппаратом «Air prophy»",
+    "priceKey": "dentistPricePolishingAirProphy",
+    "defaultPrice": "800 MDL"
+  },
+  {
+    "id": "whitening_office",
+    "serviceKey": "dentistPriceServiceWhiteningOffice",
+    "defaultService": "Înălbirea dinţilor de oficiu (1 vizită)",
+    "titleRu": "Отбеливание зубов офисное (1 посещение)",
+    "priceKey": "dentistPriceWhiteningOffice",
+    "defaultPrice": "4000 MDL"
+  },
+  {
+    "id": "whitening_home",
+    "serviceKey": "dentistPriceServiceWhiteningHome",
+    "defaultService": "Înălbirea la domiciliu (incl, 2 cape + 4 seringi gel)",
+    "titleRu": "Отбеливание домашнее (вкл. 2 каппы + 4 шприца геля)",
+    "priceKey": "dentistPriceWhiteningHome",
+    "defaultPrice": "5000 MDL"
+  },
+  {
+    "id": "whitening_endo",
+    "serviceKey": "dentistPriceServiceWhiteningEndo",
+    "defaultService": "Înălbirea endodontică (1 dinte, 1 vizită)",
+    "titleRu": "Отбеливание эндодонтическое (1 зуб, 1 посещение)",
+    "priceKey": "dentistPriceWhiteningEndo",
+    "defaultPrice": "650 MDL"
+  },
+  {
+    "id": "ct_analysis",
+    "serviceKey": "dentistPriceServiceCtAnalysis",
+    "defaultService": "Analiza tomogafiei computerizate",
+    "titleRu": "Анализ компьютерной томографии",
+    "priceKey": "dentistPriceCtAnalysis",
+    "defaultPrice": "200 MDL"
+  },
+  {
+    "id": "tray_single_arch",
+    "serviceKey": "dentistPriceServiceTraySingleArch",
+    "defaultService": "Confect. Capei p-u 1 maxila",
+    "titleRu": "Изготовление каппы для 1 челюсти",
+    "priceKey": "dentistPriceTraySingleArch",
+    "defaultPrice": "1600 MDL"
+  },
+  {
+    "id": "stain_brush_paste",
+    "serviceKey": "dentistPriceServiceStainBrushPaste",
+    "defaultService": "Inalaturarea depunelor dentare cu periuta si pasta",
+    "titleRu": "Снятие налёта (пастой + щёткой)",
+    "priceKey": "dentistPriceStainBrushPaste",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "whitening_dose",
+    "serviceKey": "dentistPriceServiceWhiteningDose",
+    "defaultService": "1 Doză pentru",
+    "titleRu": "1 доза для отбеливания",
+    "priceKey": "dentistPriceWhiteningDose",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "hyperesthesia_treatment",
+    "serviceKey": "dentistPriceServiceHyperesthesiaTreatment",
+    "defaultService": "Tratamentul dinţilor cu hiperstezie ( oficiu )",
+    "titleRu": "Лечение гиперестезии зубов (офисное)",
+    "priceKey": "dentistPriceHyperesthesiaTreatment",
+    "defaultPrice": "500 MDL"
+  },
+  {
+    "id": "gingival_dressings",
+    "serviceKey": "dentistPriceServiceGingivalDressings",
+    "defaultService": "Aplicarea tratamentelor gingivale (1 vizită)",
+    "titleRu": "Наложение десневых повязок (1 посещение)",
+    "priceKey": "dentistPriceGingivalDressings",
+    "defaultPrice": "500 MDL"
+  },
+  {
+    "id": "periodontal_plasmolifting",
+    "serviceKey": "dentistPriceServicePeriodontalPlasmolifting",
+    "defaultService": "Tratamentul paradontului cu metoda (plazmolifting)",
+    "titleRu": "Лечение пародонта методом плазмолифтинга",
+    "priceKey": "dentistPricePeriodontalPlasmolifting",
+    "defaultPrice": "2400 MDL"
+  },
+  {
+    "id": "follow_up_visit",
+    "serviceKey": "dentistPriceServiceFollowUpVisit",
+    "defaultService": "Vizita repetata, Inspecție de control",
+    "titleRu": "Повторный приём, контрольный осмотр",
+    "priceKey": "dentistPriceFollowUpVisit",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "lincomycin_dexamethasone",
+    "serviceKey": "dentistPriceServiceLincomycinDexamethasone",
+    "defaultService": "Lincomicin, dexametazon",
+    "titleRu": "Линкомицин, дексаметазон",
+    "priceKey": "dentistPriceLincomycinDexamethasone",
+    "defaultPrice": "300 MDL"
+  },
+  {
+    "id": "teeth_scanning",
+    "serviceKey": "dentistPriceServiceTeethScanning",
+    "defaultService": "Scanare dintii",
+    "titleRu": "Сканирование зубов",
+    "priceKey": "dentistPriceTeethScanning",
+    "defaultPrice": "1600 MDL"
+  },
+
+  {
+    "id": "caries_filling_photo_class_i_v",
+    "serviceKey": "dentistPriceServiceCariesFillingPhotoClassIV",
+    "defaultService": "Obturaţie cu priză foto (I,V class)",
+    "titleRu": "Пломба фотоотверждения (I, V класс)",
+    "priceKey": "dentistPriceCariesFillingPhotoClassIV",
+    "defaultPrice": "1300 MDL"
+  },
+  {
+    "id": "caries_filling_photo_class_ii_iii_iv",
+    "serviceKey": "dentistPriceServiceCariesFillingPhotoClassIiIiiIv",
+    "defaultService": "Obturaţie cu priză foto (|I,I|I,IV class)",
+    "titleRu": "Пломба фотоотверждения (II, III, IV класс)",
+    "priceKey": "dentistPriceCariesFillingPhotoClassIiIiiIv",
+    "defaultPrice": "1500 MDL"
+  },
+  {
+    "id": "caries_filling_photo_flow",
+    "serviceKey": "dentistPriceServiceCariesFillingPhotoFlow",
+    "defaultService": "Obturaţie cu priză foto Compozit Flow",
+    "titleRu": "Пломба фотоотверждаемая (жидкий композит)",
+    "priceKey": "dentistPriceCariesFillingPhotoFlow",
+    "defaultPrice": "1200 MDL"
+  },
+  {
+    "id": "caries_liner",
+    "serviceKey": "dentistPriceServiceCariesLiner",
+    "defaultService": "Aplicarea căptuşelei (izolatoare, medicament)",
+    "titleRu": "Постановка прокладки (изолирующая, лечебная)",
+    "priceKey": "dentistPriceCariesLiner",
+    "defaultPrice": "200 MDL"
+  },
+  {
+    "id": "caries_splint_fiberglass",
+    "serviceKey": "dentistPriceServiceCariesSplintFiberglass",
+    "defaultService": "Şinarea cu fibre de sticlă (1 dinte)",
+    "titleRu": "Шинирование стекловолокном (1 зуб)",
+    "priceKey": "dentistPriceCariesSplintFiberglass",
+    "defaultPrice": "1300 MDL"
+  },
+  {
+    "id": "caries_filling_photo_microscope",
+    "serviceKey": "dentistPriceServiceCariesFillingPhotoMicroscope",
+    "defaultService": "Obturatie cu priza foto: (cu microscop)",
+    "titleRu": "Пломбировка фотоотверждаемая (под микроскопом)",
+    "priceKey": "dentistPriceCariesFillingPhotoMicroscope",
+    "defaultPrice": "2200 MDL"
+  },
+  {
+    "id": "caries_restoration_microscope",
+    "serviceKey": "dentistPriceServiceCariesRestorationMicroscope",
+    "defaultService": "Restaurarea dintelui (sub microscp)",
+    "titleRu": "Реставрация зуба (под микроскопом)",
+    "priceKey": "dentistPriceCariesRestorationMicroscope",
+    "defaultPrice": "3000 MDL"
+  },
+
+  {
+    "id": "endo_devital_paste_temp_filling",
+    "serviceKey": "dentistPriceServiceEndoDevitalPasteTempFilling",
+    "defaultService": "Aplicarea pastei devitalizante, obturaţie temporară",
+    "titleRu": "Наложение девита, временной пломбы",
+    "priceKey": "dentistPriceEndoDevitalPasteTempFilling",
+    "defaultPrice": "550 MDL"
+  },
+  {
+    "id": "endo_tooth_opening_drainage",
+    "serviceKey": "dentistPriceServiceEndoToothOpeningDrainage",
+    "defaultService": "Deschiderea dintelui, drenaj",
+    "titleRu": "Вскрытие зуба, отток",
+    "priceKey": "dentistPriceEndoToothOpeningDrainage",
+    "defaultPrice": "550 MDL"
+  },
+  {
+    "id": "endo_single_root",
+    "serviceKey": "dentistPriceServiceEndoSingleRoot",
+    "defaultService": "Tratamentul endodontic al dintelor monoradicular",
+    "titleRu": "Эндодонтическое лечение однокорневого зуба",
+    "priceKey": "dentistPriceEndoSingleRoot",
+    "defaultPrice": "1200 MDL"
+  },
+  {
+    "id": "endo_two_root",
+    "serviceKey": "dentistPriceServiceEndoTwoRoot",
+    "defaultService": "Tratamentul endodontic al dintelor biradicular",
+    "titleRu": "Эндодонтическое лечение двухкорневого зуба",
+    "priceKey": "dentistPriceEndoTwoRoot",
+    "defaultPrice": "1450 MDL"
+  },
+  {
+    "id": "endo_three_root",
+    "serviceKey": "dentistPriceServiceEndoThreeRoot",
+    "defaultService": "Tratamentul endodontic al dintelor triradicular",
+    "titleRu": "Эндодонтическое лечение трёхкорневого зуба",
+    "priceKey": "dentistPriceEndoThreeRoot",
+    "defaultPrice": "2000 MDL"
+  },
+  {
+    "id": "endo_retreatment_canal",
+    "serviceKey": "dentistPriceServiceEndoRetreatmentCanal",
+    "defaultService": "Dezobturarea canalului radicular tratat anterior (1 canal)",
+    "titleRu": "Распломбировка ранее пломбированного канала (1 канал)",
+    "priceKey": "dentistPriceEndoRetreatmentCanal",
+    "defaultPrice": "50 MDL"
+  },
+  {
+    "id": "endo_temp_filling",
+    "serviceKey": "dentistPriceServiceEndoTempFilling",
+    "defaultService": "Obturaţie temporară",
+    "titleRu": "Временная пломба",
+    "priceKey": "dentistPriceEndoTempFilling",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "endo_pro_rut_gutta_cone",
+    "serviceKey": "dentistPriceServiceEndoProRutGuttaCone",
+    "defaultService": "Pro-rut cu con de gutaperca",
+    "titleRu": "Pro-rut с гутаперчевым штифтом",
+    "priceKey": "dentistPriceEndoProRutGuttaCone",
+    "defaultPrice": "1300 MDL"
+  },
+  {
+    "id": "endo_filling_photo",
+    "serviceKey": "dentistPriceServiceEndoFillingPhoto",
+    "defaultService": "Obturaţie cu priză foto",
+    "titleRu": "Пломба фотоотверждаемая",
+    "priceKey": "dentistPriceEndoFillingPhoto",
+    "defaultPrice": "1600 MDL"
+  },
+  {
+    "id": "endo_esthetic_restoration",
+    "serviceKey": "dentistPriceServiceEndoEstheticRestoration",
+    "defaultService": "Restaurarea estetică a dintelui",
+    "titleRu": "Художественная реставрация зуба",
+    "priceKey": "dentistPriceEndoEstheticRestoration",
+    "defaultPrice": "2500 MDL"
+  },
+  {
+    "id": "endo_core_filling_photo",
+    "serviceKey": "dentistPriceServiceEndoCoreFillingPhoto",
+    "defaultService": "Obturaţie foto pentru bont protetic",
+    "titleRu": "Культя под коронку (фото)",
+    "priceKey": "dentistPriceEndoCoreFillingPhoto",
+    "defaultPrice": "1200 MDL"
+  },
+  {
+    "id": "endo_metal_post",
+    "serviceKey": "dentistPriceServiceEndoMetalPost",
+    "defaultService": "Pivot metalic pentru obturaţia armată",
+    "titleRu": "Установка металлического штифта",
+    "priceKey": "dentistPriceEndoMetalPost",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "endo_pro_rut_liner",
+    "serviceKey": "dentistPriceServiceEndoProRutLiner",
+    "defaultService": "Pro-rut căptuşeală",
+    "titleRu": "Pro-rut прокладка",
+    "priceKey": "dentistPriceEndoProRutLiner",
+    "defaultPrice": "800 MDL"
+  },
+  {
+    "id": "endo_temp_canal_filling",
+    "serviceKey": "dentistPriceServiceEndoTempCanalFilling",
+    "defaultService": "Plombare temporala a canalului (1 canl)",
+    "titleRu": "Временная пломбировка канала (1 канал)",
+    "priceKey": "dentistPriceEndoTempCanalFilling",
+    "defaultPrice": "300 MDL"
+  },
+  {
+    "id": "endo_fiberglass_post",
+    "serviceKey": "dentistPriceServiceEndoFiberglassPost",
+    "defaultService": "Pivot din fibră de sticlă pentru obturaţia armată",
+    "titleRu": "Установка стекловолоконного штифта",
+    "priceKey": "dentistPriceEndoFiberglassPost",
+    "defaultPrice": "500 MDL"
+  },
+  {
+    "id": "endo_single_microscope",
+    "serviceKey": "dentistPriceServiceEndoSingleMicroscope",
+    "defaultService": "Tratamentul endodontic al dintelor cu un canal (microscop)",
+    "titleRu": "Эндодонтическое лечение однокорневого зуба (с микроскопом)",
+    "priceKey": "dentistPriceEndoSingleMicroscope",
+    "defaultPrice": "1800 MDL"
+  },
+  {
+    "id": "endo_two_microscope",
+    "serviceKey": "dentistPriceServiceEndoTwoMicroscope",
+    "defaultService": "Tratamentul endodontic al dintelor biradic (microscop)",
+    "titleRu": "Эндодонтическое лечение двухкорневого зуба (с микроскопом)",
+    "priceKey": "dentistPriceEndoTwoMicroscope",
+    "defaultPrice": "2200 MDL"
+  },
+  {
+    "id": "endo_three_microscope",
+    "serviceKey": "dentistPriceServiceEndoThreeMicroscope",
+    "defaultService": "Tratamentul endodontic al dintelor tiradic (microscop)",
+    "titleRu": "Эндодонтическое лечение трёхкорневого зуба (с микроскопом)",
+    "priceKey": "dentistPriceEndoThreeMicroscope",
+    "defaultPrice": "2600 MDL"
+  },
+  {
+    "id": "endo_instrument_removal_microscope",
+    "serviceKey": "dentistPriceServiceEndoInstrumentRemovalMicroscope",
+    "defaultService": "Eliminarea instrum. Din canal (sub microscop)",
+    "titleRu": "Удаление инструмента из канала (под микроскопом)",
+    "priceKey": "dentistPriceEndoInstrumentRemovalMicroscope",
+    "defaultPrice": "2600 MDL"
+  },
+  {
+    "id": "endo_retreatment_microscope",
+    "serviceKey": "dentistPriceServiceEndoRetreatmentMicroscope",
+    "defaultService": "Dezobturarea canalului r tratat anterior (1 canal) (microscop)",
+    "titleRu": "Распломбировка ранее пломбированного канала (1 канал, микроскоп)",
+    "priceKey": "dentistPriceEndoRetreatmentMicroscope",
+    "defaultPrice": "800 MDL"
+  },
+
+  {
+    "id": "prostho_crown_pfm",
+    "serviceKey": "dentistPriceServiceProsthoCrownPfm",
+    "defaultService": "Coroniţă metaloceramică",
+    "titleRu": "Металлокерамическая коронка",
+    "priceKey": "dentistPriceProsthoCrownPfm",
+    "defaultPrice": "3800 MDL"
+  },
+  {
+    "id": "prostho_crown_zirconia",
+    "serviceKey": "dentistPriceServiceProsthoCrownZirconia",
+    "defaultService": "Coroniţă ceramică pe bază de oxid de zirconiu",
+    "titleRu": "Керамическая коронка на основе оксида циркония",
+    "priceKey": "dentistPriceProsthoCrownZirconia",
+    "defaultPrice": "6500 MDL"
+  },
+  {
+    "id": "prostho_abutment_any_one",
+    "serviceKey": "dentistPriceServiceProsthoAbutmentAnyOne",
+    "defaultService": "Bont protetic(Any One)",
+    "titleRu": "Абатмент (Any One)",
+    "priceKey": "dentistPriceProsthoAbutmentAnyOne",
+    "defaultPrice": "2300 MDL"
+  },
+  {
+    "id": "prostho_abutment_individual",
+    "serviceKey": "dentistPriceServiceProsthoAbutmentIndividual",
+    "defaultService": "Bont protetic(Individual)",
+    "titleRu": "Абатмент (индивидуальный)",
+    "priceKey": "dentistPriceProsthoAbutmentIndividual",
+    "defaultPrice": "2800 MDL"
+  },
+  {
+    "id": "prostho_abutment_any_ridge",
+    "serviceKey": "dentistPriceServiceProsthoAbutmentAnyRidge",
+    "defaultService": "Bont protetic(Any Ridge)",
+    "titleRu": "Абатмент (Any Ridge)",
+    "priceKey": "dentistPriceProsthoAbutmentAnyRidge",
+    "defaultPrice": "2500 MDL"
+  },
+  {
+    "id": "prostho_temp_crown_implant",
+    "serviceKey": "dentistPriceServiceProsthoTempCrownImplant",
+    "defaultService": "Coronita temporara din acrilat pe implant (inclus abatment)",
+    "titleRu": "Временная пластмассовая коронка на импланте (вкл. абатмент)",
+    "priceKey": "dentistPriceProsthoTempCrownImplant",
+    "defaultPrice": "1200 MDL"
+  },
+  {
+    "id": "prostho_healing_abutment",
+    "serviceKey": "dentistPriceServiceProsthoHealingAbutment",
+    "defaultService": "Formator de gingie",
+    "titleRu": "Формирователь десны",
+    "priceKey": "dentistPriceProsthoHealingAbutment",
+    "defaultPrice": "700 MDL"
+  },
+  {
+    "id": "prostho_crown_full_cast",
+    "serviceKey": "dentistPriceServiceProsthoCrownFullCast",
+    "defaultService": "Coroniţă întreg turnată",
+    "titleRu": "Цельнолитая коронка",
+    "priceKey": "dentistPriceProsthoCrownFullCast",
+    "defaultPrice": "2500 MDL"
+  },
+  {
+    "id": "prostho_crown_full_cast_veneer",
+    "serviceKey": "dentistPriceServiceProsthoCrownFullCastVeneer",
+    "defaultService": "Coroniţă întreg turnată cu faţetă vestibulară din ceramică",
+    "titleRu": "Цельнолитая коронка с облицовкой керамикой вестибулярной поверхности",
+    "priceKey": "dentistPriceProsthoCrownFullCastVeneer",
+    "defaultPrice": "3600 MDL"
+  },
+  {
+    "id": "prostho_crown_acrylic_temp",
+    "serviceKey": "dentistPriceServiceProsthoCrownAcrylicTemp",
+    "defaultService": "Coroniţă din acrilat(temporară)",
+    "titleRu": "Пластмассовая коронка (временная)",
+    "priceKey": "dentistPriceProsthoCrownAcrylicTemp",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "prostho_inlay_cemented",
+    "serviceKey": "dentistPriceServiceProsthoInlayCemented",
+    "defaultService": "Încrustaţie cu cimentare",
+    "titleRu": "Вкладка с цементировкой",
+    "priceKey": "dentistPriceProsthoInlayCemented",
+    "defaultPrice": "1500 MDL"
+  },
+  {
+    "id": "prostho_cut_stamped_crown",
+    "serviceKey": "dentistPriceServiceProsthoCutStampedCrown",
+    "defaultService": "Ablaţia coronoţei ştanţate",
+    "titleRu": "Срез штампованной коронки",
+    "priceKey": "dentistPriceProsthoCutStampedCrown",
+    "defaultPrice": "260 MDL"
+  },
+  {
+    "id": "prostho_cut_pfm_crown",
+    "serviceKey": "dentistPriceServiceProsthoCutPfmCrown",
+    "defaultService": "Ablaţia coroniţei metaloceramice",
+    "titleRu": "Срез металлокерамической коронки",
+    "priceKey": "dentistPriceProsthoCutPfmCrown",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "prostho_cut_full_cast_crown",
+    "serviceKey": "dentistPriceServiceProsthoCutFullCastCrown",
+    "defaultService": "Ablaţia coroniţei întreg turnate",
+    "titleRu": "Срез цельнолитой коронки",
+    "priceKey": "dentistPriceProsthoCutFullCastCrown",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "prostho_impression_single",
+    "serviceKey": "dentistPriceServiceProsthoImpressionSingle",
+    "defaultService": "Amprentă într-un singur strat",
+    "titleRu": "Оттиск однослойный",
+    "priceKey": "dentistPriceProsthoImpressionSingle",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "prostho_impression_double",
+    "serviceKey": "dentistPriceServiceProsthoImpressionDouble",
+    "defaultService": "Amprentă în două straturi",
+    "titleRu": "Оттиск двухслойный",
+    "priceKey": "dentistPriceProsthoImpressionDouble",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "prostho_crown_cementation",
+    "serviceKey": "dentistPriceServiceProsthoCrownCementation",
+    "defaultService": "Fixarea coroniţei cu ciment",
+    "titleRu": "Фиксация коронки цементом",
+    "priceKey": "dentistPriceProsthoCrownCementation",
+    "defaultPrice": "200 MDL"
+  },
+  {
+    "id": "prostho_crown_cementation_gic",
+    "serviceKey": "dentistPriceServiceProsthoCrownCementationGic",
+    "defaultService": "Fixarea coroniţei cu ciment glasionomer",
+    "titleRu": "Фиксация коронки стеклоиономерным цементом",
+    "priceKey": "dentistPriceProsthoCrownCementationGic",
+    "defaultPrice": "350 MDL"
+  },
+  {
+    "id": "prostho_crown_cementation_resin_gic",
+    "serviceKey": "dentistPriceServiceProsthoCrownCementationResinGic",
+    "defaultService": "Fixarea foto cu ciment glassionomer dublu intarire",
+    "titleRu": "Фиксация коронки фотостеклоиономером двойного отверждения",
+    "priceKey": "dentistPriceProsthoCrownCementationResinGic",
+    "defaultPrice": "1000 MDL"
+  },
+  {
+    "id": "prostho_denture_full",
+    "serviceKey": "dentistPriceServiceProsthoDentureFull",
+    "defaultService": "Proteză mobilizabilă totală«Germania»",
+    "titleRu": "Протез съёмный полный «Германия»",
+    "priceKey": "dentistPriceProsthoDentureFull",
+    "defaultPrice": "7000 MDL"
+  },
+  {
+    "id": "prostho_denture_partial",
+    "serviceKey": "dentistPriceServiceProsthoDenturePartial",
+    "defaultService": "Proteză mobilizabilă parţială«Germania»",
+    "titleRu": "Протез съёмный частичный «Германия»",
+    "priceKey": "dentistPriceProsthoDenturePartial",
+    "defaultPrice": "5000 MDL"
+  },
+  {
+    "id": "prostho_denture_cast_clasp",
+    "serviceKey": "dentistPriceServiceProsthoDentureCastClasp",
+    "defaultService": "Proteză scheletată pe bază de croşete",
+    "titleRu": "Протез бюгельный с кламмерами",
+    "priceKey": "dentistPriceProsthoDentureCastClasp",
+    "defaultPrice": "13000 MDL"
+  },
+  {
+    "id": "prostho_denture_cast_attachments",
+    "serviceKey": "dentistPriceServiceProsthoDentureCastAttachments",
+    "defaultService": "Proteză scheletată cu attachment(2 buc.)",
+    "titleRu": "Протез бюгельный с аттачментами (2 ед.)",
+    "priceKey": "dentistPriceProsthoDentureCastAttachments",
+    "defaultPrice": "15000 MDL"
+  },
+  {
+    "id": "prostho_denture_attachment_additional",
+    "serviceKey": "dentistPriceServiceProsthoDentureAttachmentAdditional",
+    "defaultService": "Attachment adăugat(1 buc.)la proteza scheletată",
+    "titleRu": "Дополнительный аттачмент (1 ед.) к бюгельному протезу",
+    "priceKey": "dentistPriceProsthoDentureAttachmentAdditional",
+    "defaultPrice": "660 MDL"
+  },
+  {
+    "id": "prostho_denture_rebase",
+    "serviceKey": "dentistPriceServiceProsthoDentureRebase",
+    "defaultService": "Rebazarea protezei",
+    "titleRu": "Перебазировка протеза",
+    "priceKey": "dentistPriceProsthoDentureRebase",
+    "defaultPrice": "850 MDL"
+  },
+  {
+    "id": "prostho_veneer_emax",
+    "serviceKey": "dentistPriceServiceProsthoVeneerEmax",
+    "defaultService": "Vinire (E-max)",
+    "titleRu": "Виниры (E-max)",
+    "priceKey": "dentistPriceProsthoVeneerEmax",
+    "defaultPrice": "8000 MDL"
+  },
+  {
+    "id": "prostho_microprosthesis_bredent",
+    "serviceKey": "dentistPriceServiceProsthoMicroprosthesisBredent",
+    "defaultService": "Microproteza Bredent",
+    "titleRu": "Микропротез Bredent",
+    "priceKey": "dentistPriceProsthoMicroprosthesisBredent",
+    "defaultPrice": "2600 MDL"
+  },
+  {
+    "id": "prostho_custom_tray",
+    "serviceKey": "dentistPriceServiceProsthoCustomTray",
+    "defaultService": "Confecţionarea lingurii individuale",
+    "titleRu": "Изготовление индивидуальной ложки",
+    "priceKey": "dentistPriceProsthoCustomTray",
+    "defaultPrice": "1000 MDL"
+  },
+  {
+    "id": "prostho_microprosthesis_fabrication",
+    "serviceKey": "dentistPriceServiceProsthoMicroprosthesisFabrication",
+    "defaultService": "Confecţionarea microprotezei",
+    "titleRu": "Изготовление микропротеза",
+    "priceKey": "dentistPriceProsthoMicroprosthesisFabrication",
+    "defaultPrice": "1700 MDL"
+  },
+  {
+    "id": "prostho_pfm_crown_repair",
+    "serviceKey": "dentistPriceServiceProsthoPfmCrownRepair",
+    "defaultService": "Reparaţia coroniţei metaloceramice(1 dinte)",
+    "titleRu": "Восстановление скола металлокерамики (1 зуб)",
+    "priceKey": "dentistPriceProsthoPfmCrownRepair",
+    "defaultPrice": "1000 MDL"
+  },
+  {
+    "id": "prostho_overlay_onlay",
+    "serviceKey": "dentistPriceServiceProsthoOverlayOnlay",
+    "defaultService": "OverLay, onLay",
+    "titleRu": "OverLay / OnLay",
+    "priceKey": "dentistPriceProsthoOverlayOnlay",
+    "defaultPrice": "5000 MDL"
+  },
+
+  {
+    "id": "surgery_extraction_simple",
+    "serviceKey": "dentistPriceServiceSurgeryExtractionSimple",
+    "defaultService": "Extracţia simplă a dintelui (mobilitate de gradul 2,3,4)",
+    "titleRu": "Удаление зуба простое (2,3,4 ст. подвижности)",
+    "priceKey": "dentistPriceSurgeryExtractionSimple",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "surgery_extraction_complex",
+    "serviceKey": "dentistPriceServiceSurgeryExtractionComplex",
+    "defaultService": "Extracţia complicată a dintelui (mobilitate de gradul 1, rădăcina)",
+    "titleRu": "Удаление зуба сложное (1 ст. подвижности, корень)",
+    "priceKey": "dentistPriceSurgeryExtractionComplex",
+    "defaultPrice": "800 MDL"
+  },
+  {
+    "id": "surgery_extraction_wisdom",
+    "serviceKey": "dentistPriceServiceSurgeryExtractionWisdom",
+    "defaultService": "Extracţia «dintelui de minte»",
+    "titleRu": "Удаление «зуба мудрости»",
+    "priceKey": "dentistPriceSurgeryExtractionWisdom",
+    "defaultPrice": "1300 MDL"
+  },
+  {
+    "id": "surgery_extraction_impacted",
+    "serviceKey": "dentistPriceServiceSurgeryExtractionImpacted",
+    "defaultService": "Extracţia dintelui disturpat, retinizat",
+    "titleRu": "Удаление дистопированных, ретинированных зубов",
+    "priceKey": "dentistPriceSurgeryExtractionImpacted",
+    "defaultPrice": "2800 MDL"
+  },
+  {
+    "id": "surgery_apicoectomy",
+    "serviceKey": "dentistPriceServiceSurgeryApicoectomy",
+    "defaultService": "Rezecţia apicală a rădăcinii",
+    "titleRu": "Операция резекции верхушки корня",
+    "priceKey": "dentistPriceSurgeryApicoectomy",
+    "defaultPrice": "4000 MDL"
+  },
+  {
+    "id": "surgery_crown_part_extraction",
+    "serviceKey": "dentistPriceServiceSurgeryCrownPartExtraction",
+    "defaultService": "Extracţia părţii coronare a dintelui",
+    "titleRu": "Удаление коронковой части зуба",
+    "priceKey": "dentistPriceSurgeryCrownPartExtraction",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "surgery_hemisection",
+    "serviceKey": "dentistPriceServiceSurgeryHemisection",
+    "defaultService": "Hemisecţia (1 dinte)",
+    "titleRu": "Гемисекция (1 зуб)",
+    "priceKey": "dentistPriceSurgeryHemisection",
+    "defaultPrice": "1300 MDL"
+  },
+  {
+    "id": "surgery_gingivectomy",
+    "serviceKey": "dentistPriceServiceSurgeryGingivectomy",
+    "defaultService": "Gingivoectomia (1 dinte)",
+    "titleRu": "Гингивэктомия (1 зуб)",
+    "priceKey": "dentistPriceSurgeryGingivectomy",
+    "defaultPrice": "4000 MDL"
+  },
+  {
+    "id": "surgery_periostitis_treatment",
+    "serviceKey": "dentistPriceServiceSurgeryPeriostitisTreatment",
+    "defaultService": "Tratamentul periostitei",
+    "titleRu": "Лечение периостита",
+    "priceKey": "dentistPriceSurgeryPeriostitisTreatment",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "surgery_alveolitis_treatment",
+    "serviceKey": "dentistPriceServiceSurgeryAlveolitisTreatment",
+    "defaultService": "Tratamentul alveolitei",
+    "titleRu": "Лечение альвеолита",
+    "priceKey": "dentistPriceSurgeryAlveolitisTreatment",
+    "defaultPrice": "600 MDL"
+  },
+  {
+    "id": "surgery_pericoronitis_flap",
+    "serviceKey": "dentistPriceServiceSurgeryPericoronitisFlap",
+    "defaultService": "Decapuşonare ( pericornorită)",
+    "titleRu": "Иссечение слизисто-надкостничного лоскута при перикоронарите",
+    "priceKey": "dentistPriceSurgeryPericoronitisFlap",
+    "defaultPrice": "650 MDL"
+  },
+  {
+    "id": "surgery_frenectomy",
+    "serviceKey": "dentistPriceServiceSurgeryFrenectomy",
+    "defaultService": "Plastia frenului buzei şi a limbii",
+    "titleRu": "Операция пластики уздечки губы (языка)",
+    "priceKey": "dentistPriceSurgeryFrenectomy",
+    "defaultPrice": "2000 MDL"
+  },
+  {
+    "id": "surgery_suture_placement",
+    "serviceKey": "dentistPriceServiceSurgerySuturePlacement",
+    "defaultService": "Sutura pe gingie (1 sutură)",
+    "titleRu": "Наложение шва на слизистую (1 шов)",
+    "priceKey": "dentistPriceSurgerySuturePlacement",
+    "defaultPrice": "250 MDL"
+  },
+  {
+    "id": "surgery_suture_removal",
+    "serviceKey": "dentistPriceServiceSurgerySutureRemoval",
+    "defaultService": "Înlăturarea suturilor",
+    "titleRu": "Снятие швов",
+    "priceKey": "dentistPriceSurgerySutureRemoval",
+    "defaultPrice": "400 MDL"
+  },
+  {
+    "id": "surgery_colapol_use",
+    "serviceKey": "dentistPriceServiceSurgeryColapolUse",
+    "defaultService": "Folosirea «colapol» la extractie",
+    "titleRu": "Применение «Colapol» при удалении",
+    "priceKey": "dentistPriceSurgeryColapolUse",
+    "defaultPrice": "2000 MDL"
+  },
+  {
+    "id": "surgery_dressing",
+    "serviceKey": "dentistPriceServiceSurgeryDressing",
+    "defaultService": "Pansament",
+    "titleRu": "Перевязка",
+    "priceKey": "dentistPriceSurgeryDressing",
+    "defaultPrice": "350 MDL"
+  },
+  {
+    "id": "surgery_open_curettage",
+    "serviceKey": "dentistPriceServiceSurgeryOpenCurettage",
+    "defaultService": "Chiuretaj deschis (1 dinte)",
+    "titleRu": "Открытый кюретаж (1 зуб)",
+    "priceKey": "dentistPriceSurgeryOpenCurettage",
+    "defaultPrice": "450 MDL"
+  },
+  {
+    "id": "surgery_canine_exposure",
+    "serviceKey": "dentistPriceServiceSurgeryCanineExposure",
+    "defaultService": "Degajarea caninuliu (1dinte)",
+    "titleRu": "Открытие клыка (1 зуб)",
+    "priceKey": "dentistPriceSurgeryCanineExposure",
+    "defaultPrice": "2000 MDL"
+  },
+  {
+    "id": "surgery_implant_removal",
+    "serviceKey": "dentistPriceServiceSurgeryImplantRemoval",
+    "defaultService": "Exstractia implantului",
+    "titleRu": "Удаление импланта",
+    "priceKey": "dentistPriceSurgeryImplantRemoval",
+    "defaultPrice": "2400 MDL"
+  },
+
+  {
+    "id": "implant_any_ridge",
+    "serviceKey": "dentistPriceServiceImplantAnyRidge",
+    "defaultService": "Any RydgeImplant cu aplicare productie «Corea»",
+    "titleRu": "Имплант с установкой пр-во «Корея» (Any Ridge)",
+    "priceKey": "dentistPriceImplantAnyRidge",
+    "defaultPrice": "8500 MDL"
+  },
+  {
+    "id": "implant_nobel_biocare",
+    "serviceKey": "dentistPriceServiceImplantNobelBiocare",
+    "defaultService": "Nobel BiocareImplant cu aplicare Nobel Biocare",
+    "titleRu": "Имплант с установкой Nobel Biocare",
+    "priceKey": "dentistPriceImplantNobelBiocare",
+    "defaultPrice": "12600 MDL"
+  },
+  {
+    "id": "implant_any_one",
+    "serviceKey": "dentistPriceServiceImplantAnyOne",
+    "defaultService": "Any OneImplant cu aplicare productie (Corea)",
+    "titleRu": "Имплант с установкой пр-во «Корея» (Any One)",
+    "priceKey": "dentistPriceImplantAnyOne",
+    "defaultPrice": "7300 MDL"
+  },
+  {
+    "id": "implant_sinus_lift_closed",
+    "serviceKey": "dentistPriceServiceImplantSinusLiftClosed",
+    "defaultService": "Sinus lifting inchis",
+    "titleRu": "Закрытый синус-лифтинг",
+    "priceKey": "dentistPriceImplantSinusLiftClosed",
+    "defaultPrice": "3000 MDL"
+  },
+  {
+    "id": "implant_ridge_expansion",
+    "serviceKey": "dentistPriceServiceImplantRidgeExpansion",
+    "defaultService": "Chirurgie de lărgire a procesului alveolar",
+    "titleRu": "Операция расширения альвеолярного отростка",
+    "priceKey": "dentistPriceImplantRidgeExpansion",
+    "defaultPrice": "9000 MDL"
+  },
+  {
+    "id": "implant_sinus_lift_open",
+    "serviceKey": "dentistPriceServiceImplantSinusLiftOpen",
+    "defaultService": "Chirurgia sinus-liftului deschis",
+    "titleRu": "Операция открытого синус-лифта",
+    "priceKey": "dentistPriceImplantSinusLiftOpen",
+    "defaultPrice": "15000 MDL"
+  },
+  {
+    "id": "implant_bone_graft",
+    "serviceKey": "dentistPriceServiceImplantBoneGraft",
+    "defaultService": "Material osteoinductie ( 0,5 gr)",
+    "titleRu": "Остеоиндукционный материал (0,5 г)",
+    "priceKey": "dentistPriceImplantBoneGraft",
+    "defaultPrice": "5000 MDL"
+  },
+  {
+    "id": "implant_barrier_membrane",
+    "serviceKey": "dentistPriceServiceImplantBarrierMembrane",
+    "defaultService": "Membrana de bariera",
+    "titleRu": "Барьерная мембрана",
+    "priceKey": "dentistPriceImplantBarrierMembrane",
+    "defaultPrice": "5000 MDL"
+  },
+  {
+    "id": "implant_all_on_4_any_one",
+    "serviceKey": "dentistPriceServiceImplantAllOn4AnyOne",
+    "defaultService": "All-on-4(Any one)+Constructie temporara PMA",
+    "titleRu": "All-on-4 (Any One) + временная конструкция PMA",
+    "priceKey": "dentistPriceImplantAllOn4AnyOne",
+    "defaultPrice": "60000 MDL"
+  },
+  {
+    "id": "implant_all_on_4_any_ridge",
+    "serviceKey": "dentistPriceServiceImplantAllOn4AnyRidge",
+    "defaultService": "All-on-4(Any Rydge)+Constructie temporara PMA",
+    "titleRu": "All-on-4 (Any Ridge) + временная конструкция PMA",
+    "priceKey": "dentistPriceImplantAllOn4AnyRidge",
+    "defaultPrice": "65000 MDL"
+  },
+  {
+    "id": "implant_surgical_guide",
+    "serviceKey": "dentistPriceServiceImplantSurgicalGuide",
+    "defaultService": "Изготовление хирургического шаблона",
+    "titleRu": "Изготовление хирургического шаблона",
+    "priceKey": "dentistPriceImplantSurgicalGuide",
+    "defaultPrice": "2600 MDL"
+  },
+
+  {
+    "id": "pedo_caries_cement",
+    "serviceKey": "dentistPriceServicePedoCariesCement",
+    "defaultService": "Кариес (пломба цемент)",
+    "titleRu": "Кариес (пломба цемент)",
+    "priceKey": "dentistPricePedoCariesCement",
+    "defaultPrice": "1000 MDL"
+  },
+  {
+    "id": "pedo_caries_photo",
+    "serviceKey": "dentistPriceServicePedoCariesPhoto",
+    "defaultService": "Obturaţie fotopolimerica",
+    "titleRu": "Кариес (пломба фотоотверждаемая)",
+    "priceKey": "dentistPricePedoCariesPhoto",
+    "defaultPrice": "1200 MDL"
+  },
+  {
+    "id": "pedo_pulpitis_one_visit",
+    "serviceKey": "dentistPriceServicePedoPulpitisOneVisit",
+    "defaultService": "Pulpită,Periodontit cu aplicarea obturatie (1 vizita)",
+    "titleRu": "Пульпит, периодонтит с пломбой (1 посещение)",
+    "priceKey": "dentistPricePedoPulpitisOneVisit",
+    "defaultPrice": "1900 MDL"
+  },
+  {
+    "id": "pedo_pulpitis_two_visits",
+    "serviceKey": "dentistPriceServicePedoPulpitisTwoVisits",
+    "defaultService": "Pulpită,Periodontit cu aplicarea obturatie (2 vizita)",
+    "titleRu": "Пульпит, периодонтит с пломбой (2 посещения)",
+    "priceKey": "dentistPricePedoPulpitisTwoVisits",
+    "defaultPrice": "2400 MDL"
+  },
+  {
+    "id": "pedo_extraction_primary_tooth",
+    "serviceKey": "dentistPriceServicePedoExtractionPrimaryTooth",
+    "defaultService": "Extracţia «dintelui de lapte» cu anestezie",
+    "titleRu": "Удаление «молочного зуба» с анестезией",
+    "priceKey": "dentistPricePedoExtractionPrimaryTooth",
+    "defaultPrice": "600 MDL"
+  },
+
+  {
+    "id": "ortho_bracket_activation",
+    "serviceKey": "dentistPriceServiceOrthoBracketActivation",
+    "defaultService": "Activarea sistemei bracket ( 1 maxilă)",
+    "titleRu": "Активация брекет-системы (1 челюсть)",
+    "priceKey": "dentistPriceOrthoBracketActivation",
+    "defaultPrice": "300 MDL"
+  },
+  {
+    "id": "ortho_removable_activation",
+    "serviceKey": "dentistPriceServiceOrthoRemovableActivation",
+    "defaultService": "Activarea aparatului mobilizabil (1 maxilă)",
+    "titleRu": "Активация съёмного аппарата (1 челюсть)",
+    "priceKey": "dentistPriceOrthoRemovableActivation",
+    "defaultPrice": "220 MDL"
+  },
+  {
+    "id": "ortho_marco_rossa",
+    "serviceKey": "dentistPriceServiceOrthoMarcoRossa",
+    "defaultService": "Аппарат Marco Rossa",
+    "titleRu": "Аппарат Marco Rossa",
+    "priceKey": "dentistPriceOrthoMarcoRossa",
+    "defaultPrice": "7000 MDL"
+  },
+  {
+    "id": "ortho_brackets_sapphire",
+    "serviceKey": "dentistPriceServiceOrthoBracketsSapphire",
+    "defaultService": "Aplicarea sistemei bracket (1 maxilă) Sapfir",
+    "titleRu": "Установка брекет-системы (1 челюсть) Sapphire",
+    "priceKey": "dentistPriceOrthoBracketsSapphire",
+    "defaultPrice": "20000 MDL"
+  },
+  {
+    "id": "ortho_brackets_damon",
+    "serviceKey": "dentistPriceServiceOrthoBracketsDamon",
+    "defaultService": "Aplicarea sistemei bracket (1 maxilă) Daemon.",
+    "titleRu": "Установка брекет-системы (1 челюсть) Damon",
+    "priceKey": "dentistPriceOrthoBracketsDamon",
+    "defaultPrice": "17000 MDL"
+  },
+  {
+    "id": "ortho_brackets_damon_clear",
+    "serviceKey": "dentistPriceServiceOrthoBracketsDamonClear",
+    "defaultService": "Aplicarea sistemei bracket (1 maxilă) Deamon(transparenta)",
+    "titleRu": "Установка брекет-системы (1 челюсть) Damon (прозрачная)",
+    "priceKey": "dentistPriceOrthoBracketsDamonClear",
+    "defaultPrice": "20000 MDL"
+  },
+  {
+    "id": "ortho_brackets_removal",
+    "serviceKey": "dentistPriceServiceOrthoBracketsRemoval",
+    "defaultService": "Înlăturarea sistemei bracket (1 maxilă)",
+    "titleRu": "Снятие брекет-системы (1 челюсть)",
+    "priceKey": "dentistPriceOrthoBracketsRemoval",
+    "defaultPrice": "650 MDL"
+  },
+  {
+    "id": "ortho_brackets_hygiene",
+    "serviceKey": "dentistPriceServiceOrthoBracketsHygiene",
+    "defaultService": "Igiena sistemului bracket (1 maxila)",
+    "titleRu": "Гигиена брекет-системы (1 челюсть)",
+    "priceKey": "dentistPriceOrthoBracketsHygiene",
+    "defaultPrice": "500 MDL"
+  },
+  {
+    "id": "ortho_retainer",
+    "serviceKey": "dentistPriceServiceOrthoRetainer",
+    "defaultService": "Aplicarea retainerului",
+    "titleRu": "Установка ретейнера",
+    "priceKey": "dentistPriceOrthoRetainer",
+    "defaultPrice": "1700 MDL"
+  },
+  {
+    "id": "ortho_hard_tray_impressions",
+    "serviceKey": "dentistPriceServiceOrthoHardTrayImpressions",
+    "defaultService": "Confect. Capei dure cu amprente",
+    "titleRu": "Изготовление жёсткой каппы с оттисками",
+    "priceKey": "dentistPriceOrthoHardTrayImpressions",
+    "defaultPrice": "1700 MDL"
+  },
+  {
+    "id": "ortho_removable_activation_alt",
+    "serviceKey": "dentistPriceServiceOrthoRemovableActivationAlt",
+    "defaultService": "Активация сьемного аппарат",
+    "titleRu": "Активация съёмного аппарата",
+    "priceKey": "dentistPriceOrthoRemovableActivationAlt",
+    "defaultPrice": "250 MDL"
+  },
+  {
+    "id": "ortho_aligner_base_set",
+    "serviceKey": "dentistPriceServiceOrthoAlignerBaseSet",
+    "defaultService": "Kit de aliniere de bază",
+    "titleRu": "Элайнер базовый комплект",
+    "priceKey": "dentistPriceOrthoAlignerBaseSet",
+    "defaultPrice": "20000 MDL"
+  },
+  {
+    "id": "ortho_aligner_trays",
+    "serviceKey": "dentistPriceServiceOrthoAlignerTrays",
+    "defaultService": "Capace pentru aliniere",
+    "titleRu": "Каппы для элайнера",
+    "priceKey": "dentistPriceOrthoAlignerTrays",
+    "defaultPrice": "1700 MDL"
+  },
+  {
+    "id": "ortho_marpe",
+    "serviceKey": "dentistPriceServiceOrthoMarpe",
+    "defaultService": "Aparat Marpe",
+    "titleRu": "Аппарат MARPE",
+    "priceKey": "dentistPriceOrthoMarpe",
+    "defaultPrice": "13000 MDL"
+  }
+]
