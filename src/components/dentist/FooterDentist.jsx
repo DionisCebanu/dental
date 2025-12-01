@@ -7,9 +7,8 @@ import React, { useContext } from 'react';
       const { t } = useContext(LanguageContext);
       
       const socialLinks = [
-        { icon: <Facebook size={20} />, href: '#' },
-        { icon: <Instagram size={20} />, href: '#' },
-        { icon: <Twitter size={20} />, href: '#' },
+        { icon: <Facebook size={20} />, href: 'https://www.facebook.com/DentaLRaDen?mibextid=wwXIfr&rdid=UEF49FAzxzQcVztU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17wSWD6BXy%2F%3Fmibextid%3DwwXIfr#' },
+        { icon: <Instagram size={20} />, href: 'https://www.instagram.com/radendental?igsh=Zzh4YnFvMDBpeXB6&utm_source=qr' },
       ];
 
       return (
@@ -37,7 +36,7 @@ import React, { useContext } from 'react';
             </div>
             <div className="mt-8 pt-8 border-t border-border text-center text-sm">
               <p>&copy; {new Date().getFullYear()} {t('dentistClinicName', { defaultText: "Clinica Dentară RaDen" })}. {t('dentistAllRightsReserved', { defaultText: "Toate drepturile rezervate."})}</p>
-              <p className="text-xs mt-1 opacity-75">{t('dentistDesignedBy', { defaultText: "Proiectat de Hostinger Horizons" })} <span><a href="https://dioniscode.com/" target="_blank" className='text-orange-500 font-bold underline'>link</a></span></p>
+              <p className="text-xs mt-1 opacity-75">{t('dentistDesignedBy', { defaultText: "Proiectat de Hostinger Horizons" })} <span><a href="https://webcraft.dioniscode.com" target="_blank" className='text-orange-500 font-bold underline'>link</a></span></p>
             </div>
           </div>
         </footer>
