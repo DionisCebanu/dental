@@ -106,7 +106,7 @@
   {
     "id": "stain_brush_paste",
     "serviceKey": "dentistPriceServiceStainBrushPaste",
-    "defaultService": "Inalaturarea depunelor dentare cu periuta si pasta",
+    "defaultService": "Înlăturarea depunerilor dentare cu periuta si pasta",
     "titleRu": "Снятие налёта (пастой + щёткой)",
     "priceKey": "dentistPriceStainBrushPaste",
     "defaultPrice": "600 MDL"
@@ -114,7 +114,7 @@
   {
     "id": "whitening_dose",
     "serviceKey": "dentistPriceServiceWhiteningDose",
-    "defaultService": "1 Doză pentru",
+    "defaultService": "1 doză pentru albire",
     "titleRu": "1 доза для отбеливания",
     "priceKey": "dentistPriceWhiteningDose",
     "defaultPrice": "400 MDL"

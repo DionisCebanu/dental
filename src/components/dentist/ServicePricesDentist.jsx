@@ -11,7 +11,7 @@ import { faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 import dentistServices from '@/data/dentistServices.json';
 
 const ServicePricesDentist = () => {
-  const { t } = useContext(LanguageContext);
+  const { t, language } = useContext(LanguageContext);
 
   const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -66,9 +66,15 @@ const ServicePricesDentist = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {dentistServices.map((item) => {
             // Get translated service name
-            const serviceLabel = t(item.serviceKey, {
+            /* const serviceLabel = t(item.serviceKey, {
               defaultText: item.defaultService,
-            });
+            }); */
+            // currentLang can be 'ro', 'ru', 'en', etc.
+            const serviceLabel = language === 'ru'
+            ? (item.titleRu || item.defaultService)
+            : t(item.serviceKey, { defaultText: item.defaultService });
+
+
 
             // Get translated price string (e.g. "500 MDL")
             /* const priceText = t(item.priceKey, {
