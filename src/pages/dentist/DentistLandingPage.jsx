@@ -42,11 +42,12 @@
             <NavbarDentist />
             <HeroDentist />
             <CtaSection />
-            <div id="stats"><StatsDentist /></div>
+            
             {/* <div id="why-us"><WhyChooseUsDentist /></div> */}
             <div id="why-us"><ServicesDentist /></div>
-            <div><ServicePricesDentist /></div>
+            {/* <div><ServicePricesDentist /></div> */}
             <div id="before-after"><BeforeAfterGalleryDentist /></div>
+            <div id="stats"><StatsDentist /></div>
             <div id="reviews"><ReviewsDentist /></div>
           </motion.div>
           <ScrollTracker sectionIds={sectionIds} pageNameKey="dentistNavHome" />
