@@ -10,18 +10,48 @@ const TeamDentist = () => {
 
   const teamMembers = [
     {
-      nameKey: '',
-      defaultName: 'Nadejda Stoliarova',
-      specialtyKey: 'teamAdminSpecialty',
-      defaultSpecialty: 'Administrator',
-      positionType: 'administrator',
-      imageText: 'Administrator clinica stomatologica',
-      imageSrc: '/images/team/administrator/administrator-image-1.JPG',
+      nameKey: 'teamMedicSefName',
+      defaultName: 'Boico Olga',
+      specialtyKey: 'teamMedicSefSpecialty',
+      defaultSpecialty: 'Medic șef al clinicii',
+      positionType: 'medic-sef',
+      imageText: 'Medic șef al echipei stomatologice',
+      imageSrc: '/images/team/medic-sef/medic-sef-image-1.jpg',
+      objectPosition: '30% 10%',
       about_ro:
-        'Administrator al clinicii — responsabil pentru coordonarea activităților administrative și comunicarea cu pacienții.',
+        'Medicul principal al clinicii — specialistă cu înaltă calificare, având peste 20 de ani de experiență în domeniul medical. Deține cunoștințe profunde, aplică metode moderne de tratament și manifestă o atitudine atentă față de fiecare pacient. Sub conducerea ei, clinica oferă servicii medicale de înalt nivel și se bucură de încrederea pacienților.',
       about_ru:
-        'Администратор клиники — отвечает за координацию административной деятельности и общение с пациентами.',
+        'Главный врач клиники — высококвалифицированный специалист с более чем 20-летним опытом работы. Обладает глубокими знаниями, применяет современные методы лечения и проявляет внимательное отношение к каждому пациенту. Под её руководством клиника предоставляет медицинские услуги высокого уровня и пользуется доверием пациентов.',
     },
+    {
+      nameKey: 'teamMediciOrtodontiName',
+      defaultName: 'Trafaila Alina',
+      specialtyKey: 'teamMediciOrtodontiSpecialty',
+      defaultSpecialty: 'Medic specialist ortodonție',
+      positionType: 'medici-ortodonti',
+      imageText: 'Medic ortodont zâmbind',
+      imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-1.jpg',
+      objectPosition: '50% 15%',
+      about_ro:
+        'Medicul ortodont — specialistă cu peste 10 ani de experiență. A absolvit Universitatea de Medicină din Sankt Petersburg.Urmează constant cursuri de perfecționare internaționale, utilizează tehnologii moderne și oferă o abordare individuală pentru fiecare pacient.',
+      about_ru:
+        'Врач-ортодонт — специалист с более чем 10-летним опытом. Окончила Медицинский университет Санкт-Петербурга. Регулярно проходит международные курсы повышения квалификации, применяет современные технологии и индивидуальный подход к каждому пациенту.',
+    },
+    {
+      nameKey: 'teamMediciOrtodontiName',
+      defaultName: 'Baiceva Iana',
+      specialtyKey: 'teamMediciOrtodontiSpecialty',
+      defaultSpecialty: 'Medic specialist ortodonție',
+      positionType: 'medici-ortodonti',
+      imageText: 'Medic ortodont zâmbind',
+      imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-2.jpg',
+      objectPosition: '50% 20%',
+      about_ro:
+        'Medicul stomatolog ortodont — specialistă și asistentă universitară, cu experiență în aplicarea celor mai moderne metode de tratament ortodontic.',
+      about_ru:
+        'Стоматолог-ортодонт — специалист и преподаватель, имеющая опыт применения самых современных методов ортодонтического лечения.',
+    },
+    
     {
       nameKey: 'teamAsistentaName',
       defaultName: 'Trofaila Gabriela',
@@ -104,47 +134,19 @@ const TeamDentist = () => {
       about_ru:
         'Стоматолог общего профиля — для взрослых и детей. Опытный стоматолог, предоставляющий полный спектр услуг для всей семьи — от профилактики и гигиены до лечения кариеса, восстановления зубов и эстетической стоматологии. Особое внимание уделяется работе с детьми — чтобы внушить им доверие и создать положительный опыт посещения стоматолога с раннего возраста.',
     },
+    
     {
-      nameKey: 'teamMediciOrtodontiName',
-      defaultName: 'Trafaila Alina',
-      specialtyKey: 'teamMediciOrtodontiSpecialty',
-      defaultSpecialty: 'Medic specialist ortodonție',
-      positionType: 'medici-ortodonti',
-      imageText: 'Medic ortodont zâmbind',
-      imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-1.jpg',
-      objectPosition: '50% 15%',
+      nameKey: '',
+      defaultName: 'Nadejda Stoliarova',
+      specialtyKey: 'teamAdminSpecialty',
+      defaultSpecialty: 'Administrator',
+      positionType: 'administrator',
+      imageText: 'Administrator clinica stomatologica',
+      imageSrc: '/images/team/administrator/administrator-image-1.JPG',
       about_ro:
-        'Medicul ortodont — specialistă cu peste 10 ani de experiență. A absolvit Universitatea de Medicină din Sankt Petersburg.Urmează constant cursuri de perfecționare internaționale, utilizează tehnologii moderne și oferă o abordare individuală pentru fiecare pacient.',
+        'Administrator al clinicii — responsabil pentru coordonarea activităților administrative și comunicarea cu pacienții.',
       about_ru:
-        'Врач-ортодонт — специалист с более чем 10-летним опытом. Окончила Медицинский университет Санкт-Петербурга. Регулярно проходит международные курсы повышения квалификации, применяет современные технологии и индивидуальный подход к каждому пациенту.',
-    },
-    {
-      nameKey: 'teamMediciOrtodontiName',
-      defaultName: 'Baiceva Iana',
-      specialtyKey: 'teamMediciOrtodontiSpecialty',
-      defaultSpecialty: 'Medic specialist ortodonție',
-      positionType: 'medici-ortodonti',
-      imageText: 'Medic ortodont zâmbind',
-      imageSrc: '/images/team/medici-ortodonti/medic-ortodont-image-2.jpg',
-      objectPosition: '50% 20%',
-      about_ro:
-        'Medicul stomatolog ortodont — specialistă și asistentă universitară, cu experiență în aplicarea celor mai moderne metode de tratament ortodontic.',
-      about_ru:
-        'Стоматолог-ортодонт — специалист и преподаватель, имеющая опыт применения самых современных методов ортодонтического лечения.',
-    },
-    {
-      nameKey: 'teamMedicSefName',
-      defaultName: 'Boico Olga',
-      specialtyKey: 'teamMedicSefSpecialty',
-      defaultSpecialty: 'Medic șef al clinicii',
-      positionType: 'medic-sef',
-      imageText: 'Medic șef al echipei stomatologice',
-      imageSrc: '/images/team/medic-sef/medic-sef-image-1.jpg',
-      objectPosition: '30% 10%',
-      about_ro:
-        'Medicul principal al clinicii — specialistă cu înaltă calificare, având peste 20 de ani de experiență în domeniul medical. Deține cunoștințe profunde, aplică metode moderne de tratament și manifestă o atitudine atentă față de fiecare pacient. Sub conducerea ei, clinica oferă servicii medicale de înalt nivel și se bucură de încrederea pacienților.',
-      about_ru:
-        'Главный врач клиники — высококвалифицированный специалист с более чем 20-летним опытом работы. Обладает глубокими знаниями, применяет современные методы лечения и проявляет внимательное отношение к каждому пациенту. Под её руководством клиника предоставляет медицинские услуги высокого уровня и пользуется доверием пациентов.',
+        'Администратор клиники — отвечает за координацию административной деятельности и общение с пациентами.',
     },
   ];
 
